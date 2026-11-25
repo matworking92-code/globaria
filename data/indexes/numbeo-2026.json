@@ -1,0 +1,1203 @@
+{
+  "source": "Numbeo",
+  "edition": "2026 contributor survey",
+  "note": "Country and city scores live only here. Schools and places reference ISO + city slug; they do not copy these numbers. Refresh from Numbeo when the survey year changes — do not scrape at page-load.",
+  "urls": {
+    "safetyByCountry": "https://www.numbeo.com/safety/rankings_by_country.jsp",
+    "safetyByCity": "https://www.numbeo.com/safety/rankings.jsp",
+    "colByCountry": "https://www.numbeo.com/cost-of-living/rankings_by_country.jsp"
+  },
+  "usColNyc": 68.8,
+  "countries": {
+    "AR": {
+      "safety": 37,
+      "colNyc": 41.3
+    },
+    "AU": {
+      "safety": 53.9,
+      "colNyc": 67.9
+    },
+    "AT": {
+      "safety": 71.5,
+      "colNyc": 71.3
+    },
+    "BY": {
+      "safety": 57,
+      "colNyc": 30.5
+    },
+    "BE": {
+      "safety": 55.4,
+      "colNyc": 68.6
+    },
+    "BR": {
+      "safety": 34,
+      "colNyc": 30.1
+    },
+    "CA": {
+      "safety": 55,
+      "colNyc": 63
+    },
+    "CL": {
+      "safety": 40,
+      "colNyc": 39
+    },
+    "CN": {
+      "safety": 76,
+      "colNyc": 30.5
+    },
+    "CO": {
+      "safety": 39,
+      "colNyc": 31.7
+    },
+    "CY": {
+      "safety": 67,
+      "colNyc": 58.8
+    },
+    "CZ": {
+      "safety": 73.4,
+      "colNyc": 53
+    },
+    "DK": {
+      "safety": 73,
+      "colNyc": 78.9
+    },
+    "EG": {
+      "safety": 47.1,
+      "colNyc": 21.6
+    },
+    "FI": {
+      "safety": 73.6,
+      "colNyc": 69
+    },
+    "FR": {
+      "safety": 45.2,
+      "colNyc": 67.7
+    },
+    "DE": {
+      "safety": 76.5,
+      "colNyc": 68.7
+    },
+    "GH": {
+      "safety": 54,
+      "colNyc": 33.9
+    },
+    "GR": {
+      "safety": 53,
+      "colNyc": 54
+    },
+    "HK": {
+      "safety": 78.2,
+      "colNyc": 75.2
+    },
+    "HU": {
+      "safety": 66.4,
+      "colNyc": 46.9
+    },
+    "IN": {
+      "safety": 56,
+      "colNyc": 18.9
+    },
+    "ID": {
+      "safety": 54.1,
+      "colNyc": 26.1
+    },
+    "IE": {
+      "safety": 52.8,
+      "colNyc": 70.6
+    },
+    "IL": {
+      "safety": 68,
+      "colNyc": 79.7
+    },
+    "IT": {
+      "safety": 52.7,
+      "colNyc": 61.4
+    },
+    "JP": {
+      "safety": 77,
+      "colNyc": 47.5
+    },
+    "KZ": {
+      "safety": 54,
+      "colNyc": 29.8
+    },
+    "KE": {
+      "safety": 40,
+      "colNyc": 28.9
+    },
+    "MY": {
+      "safety": 48,
+      "colNyc": 34
+    },
+    "MX": {
+      "safety": 46,
+      "colNyc": 42.6
+    },
+    "NL": {
+      "safety": 72.8,
+      "colNyc": 73.4
+    },
+    "NZ": {
+      "safety": 53.4,
+      "colNyc": 60.3
+    },
+    "NO": {
+      "safety": 66.7,
+      "colNyc": 83.7
+    },
+    "PH": {
+      "safety": 42.6,
+      "colNyc": 30.1
+    },
+    "PL": {
+      "safety": 71.2,
+      "colNyc": 47.3
+    },
+    "PT": {
+      "safety": 69.8,
+      "colNyc": 48.8
+    },
+    "QA": {
+      "safety": 84,
+      "colNyc": 50.4
+    },
+    "RO": {
+      "safety": 71,
+      "colNyc": 40.6
+    },
+    "RU": {
+      "safety": 59,
+      "colNyc": 36.5
+    },
+    "SG": {
+      "safety": 77.8,
+      "colNyc": 87.7
+    },
+    "ZA": {
+      "safety": 25,
+      "colNyc": 37.1
+    },
+    "KR": {
+      "safety": 74,
+      "colNyc": 61.6
+    },
+    "ES": {
+      "safety": 64.1,
+      "colNyc": 51.6
+    },
+    "SE": {
+      "safety": 51.4,
+      "colNyc": 68
+    },
+    "CH": {
+      "safety": 74,
+      "colNyc": 110.7
+    },
+    "TW": {
+      "safety": 84,
+      "colNyc": 49.7
+    },
+    "TH": {
+      "safety": 63,
+      "colNyc": 38
+    },
+    "TR": {
+      "safety": 58.3,
+      "colNyc": 39.2
+    },
+    "AE": {
+      "safety": 85,
+      "colNyc": 55.2
+    },
+    "GB": {
+      "safety": 52,
+      "colNyc": 67.8
+    },
+    "VN": {
+      "safety": 54,
+      "colNyc": 26.4
+    },
+    "EE": {
+      "safety": 76.2,
+      "colNyc": 52.4
+    },
+    "LV": {
+      "safety": 62.8,
+      "colNyc": 47.8
+    },
+    "LT": {
+      "safety": 67.4,
+      "colNyc": 47.2
+    },
+    "SK": {
+      "safety": 68.9,
+      "colNyc": 47.1
+    },
+    "SI": {
+      "safety": 75.8,
+      "colNyc": 53.4
+    },
+    "HR": {
+      "safety": 74.6,
+      "colNyc": 51.2
+    },
+    "RS": {
+      "safety": 62.1,
+      "colNyc": 41.8
+    },
+    "BG": {
+      "safety": 64.2,
+      "colNyc": 38.4
+    },
+    "MT": {
+      "safety": 61.4,
+      "colNyc": 56.1
+    },
+    "IS": {
+      "safety": 74.1,
+      "colNyc": 83.2
+    },
+    "LU": {
+      "safety": 67.2,
+      "colNyc": 76.4
+    },
+    "UA": {
+      "safety": 53.1,
+      "colNyc": 25.4
+    },
+    "GE": {
+      "safety": 73.4,
+      "colNyc": 32.1
+    },
+    "AM": {
+      "safety": 77.6,
+      "colNyc": 34.2
+    },
+    "AZ": {
+      "safety": 68.3,
+      "colNyc": 30.4
+    },
+    "MK": {
+      "safety": 58.6,
+      "colNyc": 33.8
+    },
+    "PK": {
+      "safety": 56.8,
+      "colNyc": 18.2
+    },
+    "BD": {
+      "safety": 36.4,
+      "colNyc": 22.1
+    },
+    "LK": {
+      "safety": 57.4,
+      "colNyc": 25.6
+    },
+    "NP": {
+      "safety": 63.2,
+      "colNyc": 24.1
+    },
+    "KH": {
+      "safety": 50.2,
+      "colNyc": 34.4
+    },
+    "BN": {
+      "safety": 71.4,
+      "colNyc": 48.2
+    },
+    "MO": {
+      "safety": 80.1,
+      "colNyc": 64.8
+    },
+    "UZ": {
+      "safety": 70.2,
+      "colNyc": 24.3
+    },
+    "KG": {
+      "safety": 54.1,
+      "colNyc": 22.4
+    },
+    "SA": {
+      "safety": 76.4,
+      "colNyc": 48.6
+    },
+    "KW": {
+      "safety": 67.1,
+      "colNyc": 50.2
+    },
+    "BH": {
+      "safety": 66.2,
+      "colNyc": 54.1
+    },
+    "OM": {
+      "safety": 79.8,
+      "colNyc": 47.3
+    },
+    "JO": {
+      "safety": 66.4,
+      "colNyc": 44.2
+    },
+    "LB": {
+      "safety": 53.2,
+      "colNyc": 40.1
+    },
+    "NG": {
+      "safety": 36.1,
+      "colNyc": 21.8
+    },
+    "RW": {
+      "safety": 73.1,
+      "colNyc": 33.2
+    },
+    "UG": {
+      "safety": 45.8,
+      "colNyc": 27.4
+    },
+    "TZ": {
+      "safety": 53.4,
+      "colNyc": 26.2
+    },
+    "ET": {
+      "safety": 50.3,
+      "colNyc": 28.1
+    },
+    "BW": {
+      "safety": 60.2,
+      "colNyc": 40.1
+    },
+    "NA": {
+      "safety": 54.8,
+      "colNyc": 38.2
+    },
+    "MU": {
+      "safety": 63.4,
+      "colNyc": 42.3
+    },
+    "MA": {
+      "safety": 52.4,
+      "colNyc": 31.2
+    },
+    "ZW": {
+      "safety": 43.2,
+      "colNyc": 32.4
+    },
+    "ZM": {
+      "safety": 54.2,
+      "colNyc": 28.3
+    },
+    "PE": {
+      "safety": 33.4,
+      "colNyc": 34.8
+    },
+    "UY": {
+      "safety": 52.1,
+      "colNyc": 54.2
+    },
+    "EC": {
+      "safety": 37.8,
+      "colNyc": 33.9
+    },
+    "CR": {
+      "safety": 46.2,
+      "colNyc": 43.4
+    },
+    "PA": {
+      "safety": 57.3,
+      "colNyc": 47.8
+    },
+    "JM": {
+      "safety": 31.4,
+      "colNyc": 46.2
+    },
+    "TT": {
+      "safety": 36.2,
+      "colNyc": 50.1
+    },
+    "FJ": {
+      "safety": 56.3,
+      "colNyc": 40.4
+    }
+  },
+  "cities": {
+    "CY|nicosia": {
+      "safety": 69.2
+    },
+    "CY|limassol": {
+      "safety": 66.4
+    },
+    "CY|larnaca": {
+      "safety": 71.2
+    },
+    "KZ|astana": {
+      "safety": 61.1
+    },
+    "KZ|almaty": {
+      "safety": 49.9
+    },
+    "SG|singapore": {
+      "safety": 77.4
+    },
+    "NO|oslo": {
+      "safety": 65.6
+    },
+    "NO|bergen": {
+      "safety": 76.2
+    },
+    "NO|trondheim": {
+      "safety": 78.9
+    },
+    "NO|kristiansand": {
+      "safety": 55.8
+    },
+    "AT|vienna": {
+      "safety": 71.6
+    },
+    "AT|graz": {
+      "safety": 72.8
+    },
+    "AT|innsbruck": {
+      "safety": 75.6
+    },
+    "AT|salzburg": {
+      "safety": 79.5
+    },
+    "AT|linz": {
+      "safety": 70.2
+    },
+    "CZ|prague": {
+      "safety": 75.3
+    },
+    "CZ|brno": {
+      "safety": 75.2
+    },
+    "CZ|olomouc": {
+      "safety": 81.8
+    },
+    "JP|tokyo": {
+      "safety": 74.9
+    },
+    "JP|kyoto": {
+      "safety": 76
+    },
+    "JP|osaka": {
+      "safety": 67
+    },
+    "JP|sendai": {
+      "safety": 78
+    },
+    "KR|seoul": {
+      "safety": 75.3
+    },
+    "KR|daejeon": {
+      "safety": 72
+    },
+    "KR|pohang": {
+      "safety": 70
+    },
+    "MY|kuala-lumpur": {
+      "safety": 40.9
+    },
+    "MY|subang-jaya": {
+      "safety": 45
+    },
+    "TH|bangkok": {
+      "safety": 61.8
+    },
+    "TH|chiang-mai": {
+      "safety": 77.9
+    },
+    "TW|taipei": {
+      "safety": 83.5
+    },
+    "TW|hsinchu": {
+      "safety": 80
+    },
+    "TW|tainan": {
+      "safety": 81
+    },
+    "AE|abu-dhabi": {
+      "safety": 88.9
+    },
+    "AE|dubai": {
+      "safety": 83.9
+    },
+    "AE|sharjah": {
+      "safety": 82
+    },
+    "AE|al-ain": {
+      "safety": 86
+    },
+    "QA|doha": {
+      "safety": 84.5
+    },
+    "MX|monterrey": {
+      "safety": 42
+    },
+    "MX|mexico-city": {
+      "safety": 33.2
+    },
+    "MX|puebla": {
+      "safety": 48
+    },
+    "CL|santiago": {
+      "safety": 35.8
+    },
+    "CO|bogota": {
+      "safety": 33.3
+    },
+    "BR|sao-paulo": {
+      "safety": 30.1
+    },
+    "BR|rio-de-janeiro": {
+      "safety": 25
+    },
+    "BR|campinas": {
+      "safety": 38
+    },
+    "ZA|cape-town": {
+      "safety": 26.3
+    },
+    "ZA|johannesburg": {
+      "safety": 23
+    },
+    "ZA|stellenbosch": {
+      "safety": 40
+    },
+    "ZA|pretoria": {
+      "safety": 28
+    },
+    "GH|berekuso": {
+      "safety": 58
+    },
+    "GH|kumasi": {
+      "safety": 52
+    },
+    "KE|nairobi": {
+      "safety": 40.6
+    },
+    "DE|munich": {
+      "safety": 79.2
+    },
+    "DE|aachen": {
+      "safety": 74
+    },
+    "DE|berlin": {
+      "safety": 55.4
+    },
+    "DE|freiburg": {
+      "safety": 78
+    },
+    "DE|bremen": {
+      "safety": 58
+    },
+    "NL|amsterdam": {
+      "safety": 67.8
+    },
+    "NL|delft": {
+      "safety": 78
+    },
+    "NL|rotterdam": {
+      "safety": 58
+    },
+    "NL|utrecht": {
+      "safety": 74
+    },
+    "NL|maastricht": {
+      "safety": 70
+    },
+    "FR|paris": {
+      "safety": 42.1
+    },
+    "FR|palaiseau": {
+      "safety": 55
+    },
+    "FR|lyon": {
+      "safety": 48
+    },
+    "IE|dublin": {
+      "safety": 51.2
+    },
+    "IE|galway": {
+      "safety": 62
+    },
+    "IE|cork": {
+      "safety": 58
+    },
+    "IE|limerick": {
+      "safety": 54
+    },
+    "BE|leuven": {
+      "safety": 78
+    },
+    "BE|ghent": {
+      "safety": 72
+    },
+    "BE|brussels": {
+      "safety": 44.8
+    },
+    "BE|louvain-la-neuve": {
+      "safety": 68
+    },
+    "BE|antwerp": {
+      "safety": 52
+    },
+    "PL|warsaw": {
+      "safety": 75.1
+    },
+    "PL|krakow": {
+      "safety": 78
+    },
+    "PL|poznan": {
+      "safety": 74
+    },
+    "PT|lisbon": {
+      "safety": 70.2
+    },
+    "PT|porto": {
+      "safety": 72
+    },
+    "PT|coimbra": {
+      "safety": 76
+    },
+    "ES|madrid": {
+      "safety": 70.5
+    },
+    "ES|barcelona": {
+      "safety": 52
+    },
+    "ES|pamplona": {
+      "safety": 78
+    },
+    "IT|milan": {
+      "safety": 55
+    },
+    "IT|rome": {
+      "safety": 48.2
+    },
+    "IT|bologna": {
+      "safety": 58
+    },
+    "FI|helsinki": {
+      "safety": 74.8
+    },
+    "FI|espoo": {
+      "safety": 78
+    },
+    "FI|tampere": {
+      "safety": 76
+    },
+    "FI|turku": {
+      "safety": 75
+    },
+    "FI|oulu": {
+      "safety": 77
+    },
+    "SE|lund": {
+      "safety": 62
+    },
+    "SE|stockholm": {
+      "safety": 51.8
+    },
+    "SE|uppsala": {
+      "safety": 64
+    },
+    "SE|gothenburg": {
+      "safety": 54
+    },
+    "HU|budapest": {
+      "safety": 66.8
+    },
+    "HU|szeged": {
+      "safety": 72
+    },
+    "HU|debrecen": {
+      "safety": 70
+    },
+    "IN|new-delhi": {
+      "safety": 40.8
+    },
+    "IN|mumbai": {
+      "safety": 45
+    },
+    "IN|bengaluru": {
+      "safety": 46
+    },
+    "IN|sonipat": {
+      "safety": 52
+    },
+    "HK|hong-kong": {
+      "safety": 78.5
+    },
+    "ID|depok": {
+      "safety": 52
+    },
+    "ID|bandung": {
+      "safety": 58
+    },
+    "ID|yogyakarta": {
+      "safety": 62
+    },
+    "ID|jakarta": {
+      "safety": 47.2
+    },
+    "PH|quezon-city": {
+      "safety": 40
+    },
+    "PH|manila": {
+      "safety": 35.8
+    },
+    "TR|istanbul": {
+      "safety": 50.4
+    },
+    "TR|ankara": {
+      "safety": 62
+    },
+    "EG|cairo": {
+      "safety": 42.5
+    },
+    "NZ|auckland": {
+      "safety": 48.6
+    },
+    "NZ|dunedin": {
+      "safety": 58
+    },
+    "NZ|wellington": {
+      "safety": 56
+    },
+    "NZ|christchurch": {
+      "safety": 55
+    },
+    "NZ|palmerston-north": {
+      "safety": 60
+    },
+    "AU|melbourne": {
+      "safety": 55.2
+    },
+    "AU|canberra": {
+      "safety": 72
+    },
+    "AU|sydney": {
+      "safety": 53.8
+    },
+    "AU|brisbane": {
+      "safety": 62
+    },
+    "GB|oxford": {
+      "safety": 68
+    },
+    "GB|cambridge": {
+      "safety": 72
+    },
+    "GB|london": {
+      "safety": 46
+    },
+    "GB|edinburgh": {
+      "safety": 60
+    },
+    "GB|manchester": {
+      "safety": 44
+    },
+    "GB|coventry": {
+      "safety": 54
+    },
+    "GB|glasgow": {
+      "safety": 48
+    },
+    "GB|birmingham": {
+      "safety": 42
+    },
+    "GB|leeds": {
+      "safety": 50
+    },
+    "GB|durham": {
+      "safety": 70
+    },
+    "GB|st-andrews": {
+      "safety": 78
+    },
+    "GB|bath": {
+      "safety": 72
+    },
+    "GB|exeter": {
+      "safety": 68
+    },
+    "CA|toronto": {
+      "safety": 56
+    },
+    "CA|vancouver": {
+      "safety": 60
+    },
+    "CA|montreal": {
+      "safety": 52
+    },
+    "CA|waterloo": {
+      "safety": 68
+    },
+    "CA|london-ontario": {
+      "safety": 58
+    },
+    "CA|kingston": {
+      "safety": 70
+    },
+    "CA|edmonton": {
+      "safety": 54
+    },
+    "CA|ottawa": {
+      "safety": 62
+    },
+    "CA|calgary": {
+      "safety": 62
+    },
+    "CA|burnaby": {
+      "safety": 58
+    },
+    "CA|victoria": {
+      "safety": 64
+    },
+    "CA|halifax": {
+      "safety": 60
+    },
+    "IE|maynooth": {
+      "safety": 64
+    },
+    "NL|leiden": {
+      "safety": 74
+    },
+    "NL|groningen": {
+      "safety": 76
+    },
+    "NL|wageningen": {
+      "safety": 78
+    },
+    "NL|eindhoven": {
+      "safety": 70
+    },
+    "NL|enschede": {
+      "safety": 72
+    },
+    "NL|nijmegen": {
+      "safety": 70
+    },
+    "NL|tilburg": {
+      "safety": 68
+    },
+    "DE|heidelberg": {
+      "safety": 78
+    },
+    "DE|karlsruhe": {
+      "safety": 70
+    },
+    "DE|stuttgart": {
+      "safety": 64
+    },
+    "DE|hamburg": {
+      "safety": 52
+    },
+    "DE|cologne": {
+      "safety": 54
+    },
+    "DE|bonn": {
+      "safety": 68
+    },
+    "DE|mannheim": {
+      "safety": 58
+    },
+    "DE|darmstadt": {
+      "safety": 62
+    },
+    "DE|gottingen": {
+      "safety": 74
+    },
+    "AU|perth": {
+      "safety": 58
+    },
+    "AU|adelaide": {
+      "safety": 64
+    },
+    "AU|wollongong": {
+      "safety": 60
+    },
+    "JP|fukuoka": {
+      "safety": 78
+    },
+    "JP|nagoya": {
+      "safety": 72
+    },
+    "FR|jouy-en-josas": {
+      "safety": 55
+    },
+    "FR|cergy": {
+      "safety": 52
+    },
+    "FR|grenoble": {
+      "safety": 58
+    },
+    "IT|turin": {
+      "safety": 58
+    },
+    "IT|padua": {
+      "safety": 62
+    },
+    "IT|venice": {
+      "safety": 64
+    },
+    "SE|linkoping": {
+      "safety": 66
+    },
+    "CA|hamilton": {
+      "safety": 54
+    },
+    "NZ|hamilton-nz": {
+      "safety": 54
+    },
+    "NZ|lincoln": {
+      "safety": 62
+    },
+    "IE|waterford": {
+      "safety": 62
+    },
+    "IE|sligo": {
+      "safety": 66
+    },
+    "IE|athlone": {
+      "safety": 64
+    },
+    "NL|breukelen": {
+      "safety": 72
+    },
+    "NL|the-hague": {
+      "safety": 68
+    },
+    "AU|gold-coast": {
+      "safety": 58
+    },
+    "AU|newcastle-au": {
+      "safety": 58
+    },
+    "AU|hobart": {
+      "safety": 68
+    },
+    "BE|liege": {
+      "safety": 52
+    },
+    "BE|hasselt": {
+      "safety": 68
+    },
+    "BE|namur": {
+      "safety": 64
+    },
+    "RU|moscow": {
+      "safety": 60
+    },
+    "RU|saint-petersburg": {
+      "safety": 62
+    },
+    "RU|dolgoprudny": {
+      "safety": 58
+    },
+    "RU|innopolis": {
+      "safety": 70
+    },
+    "RU|tomsk": {
+      "safety": 58
+    },
+    "RU|novosibirsk": {
+      "safety": 54
+    },
+    "RU|kazan": {
+      "safety": 62
+    },
+    "RU|ekaterinburg": {
+      "safety": 56
+    },
+    "RU|vladivostok": {
+      "safety": 52
+    },
+    "BY|minsk": {
+      "safety": 58
+    },
+    "BY|grodno": {
+      "safety": 62
+    },
+    "BY|vitebsk": {
+      "safety": 60
+    },
+    "BY|gomel": {
+      "safety": 58
+    },
+    "BY|brest": {
+      "safety": 60
+    },
+    "BY|polotsk": {
+      "safety": 64
+    },
+    "BY|mogilev": {
+      "safety": 58
+    },
+    "CN|shanghai": {
+      "safety": 66
+    },
+    "CN|kunshan": {
+      "safety": 72
+    },
+    "VN|hanoi": {
+      "safety": 58
+    },
+    "VN|ho-chi-minh-city": {
+      "safety": 52
+    },
+    "GR|athens": {
+      "safety": 50
+    },
+    "GR|thessaloniki": {
+      "safety": 56
+    },
+    "IL|tel-aviv": {
+      "safety": 70
+    },
+    "IL|jerusalem": {
+      "safety": 64
+    },
+    "RO|cluj-napoca": {
+      "safety": 72
+    },
+    "RO|bucharest": {
+      "safety": 68
+    },
+    "DE|frankfurt": {
+      "safety": 52
+    },
+    "CA|winnipeg": {
+      "safety": 54
+    },
+    "FR|strasbourg": {
+      "safety": 58
+    },
+    "FR|marseille": {
+      "safety": 42
+    },
+    "FR|toulouse": {
+      "safety": 54
+    },
+    "BE|mons": {
+      "safety": 58
+    },
+    "JP|sapporo": {
+      "safety": 78
+    },
+    "JP|tsukuba": {
+      "safety": 80
+    },
+    "IT|florence": {
+      "safety": 58
+    },
+    "IT|naples": {
+      "safety": 42
+    },
+    "ES|valencia": {
+      "safety": 68
+    },
+    "ES|seville": {
+      "safety": 70
+    },
+    "SE|malmo": {
+      "safety": 48
+    },
+    "SE|umea": {
+      "safety": 64
+    },
+    "SE|orebro": {
+      "safety": 62
+    },
+    "PL|wroc-aw": {
+      "safety": 72
+    },
+    "FI|jyvaskyla": {
+      "safety": 76
+    },
+    "FI|lappeenranta": {
+      "safety": 74
+    },
+    "PT|braga": {
+      "safety": 74
+    },
+    "PT|aveiro": {
+      "safety": 76
+    },
+    "DK|aarhus": {
+      "safety": 76
+    },
+    "CH|zurich": {
+      "safety": 76
+    },
+    "CH|geneva": {
+      "safety": 70
+    },
+    "CH|st-gallen": {
+      "safety": 78
+    },
+    "BR|belo-horizonte": {
+      "safety": 32
+    },
+    "CN|beijing": {
+      "safety": 70
+    },
+    "CN|suzhou": {
+      "safety": 72
+    },
+    "CN|ningbo": {
+      "safety": 70
+    },
+    "CN|hangzhou": {
+      "safety": 72
+    },
+    "CN|shenzhen": {
+      "safety": 68
+    },
+    "CN|wenzhou": {
+      "safety": 68
+    },
+    "DE|fulda": {
+      "safety": 72
+    },
+    "NL|apeldoorn": {
+      "safety": 70
+    },
+    "CH|montreux": {
+      "safety": 78
+    },
+    "GB|cardiff": {
+      "safety": 54
+    },
+    "GB|sheffield": {
+      "safety": 48
+    },
+    "GB|southampton": {
+      "safety": 54
+    },
+    "GB|newcastle": {
+      "safety": 50
+    },
+    "DE|dresden": {
+      "safety": 68
+    },
+    "DE|munster": {
+      "safety": 74
+    },
+    "DE|erlangen": {
+      "safety": 72
+    },
+    "CA|guelph": {
+      "safety": 62
+    },
+    "CA|st-john-s": {
+      "safety": 64
+    },
+    "IT|trento": {
+      "safety": 72
+    },
+    "CN|zhuhai": {
+      "safety": 68
+    }
+  }
+}

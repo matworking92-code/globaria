@@ -1,0 +1,4536 @@
+{
+  "CY": {
+    "name": "Cyprus",
+    "region": "Europe",
+    "blurb": "Presence listing — not a complete national directory. Two English-medium campuses (University of Nicosia and UCLan Cyprus) for US students who specifically look here.",
+    "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "nicosia": {
+        "name": "Nicosia",
+        "apartment1br": "€650 / month",
+        "apartmentNote": "Typical asking rent near university areas (2025–26).",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Ledra_Street_Nicosia.jpg/1280px-Ledra_Street_Nicosia.jpg",
+        "halls": "€350–€550 / month"
+      },
+      "limassol": {
+        "name": "Limassol",
+        "apartment1br": "€1,200 / month",
+        "apartmentNote": "The dearest rental market in this sample.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Limassol_seafront.jpg/1280px-Limassol_seafront.jpg",
+        "halls": "€300–€450 / month"
+      },
+      "larnaca": {
+        "name": "Larnaca",
+        "apartment1br": "€550 / month",
+        "apartmentNote": "Usually cheaper than Nicosia and Limassol.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Larnaca_Salt_Lake.jpg/1280px-Larnaca_Salt_Lake.jpg",
+        "halls": "€400–€550 / month"
+      }
+    }
+  },
+  "KZ": {
+    "name": "Kazakhstan",
+    "region": "Asia",
+    "blurb": "Presence listing — not a complete national directory. Nazarbayev University and KIMEP are the English-medium campuses US students actually search.",
+    "photo": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "astana": {
+        "name": "Astana",
+        "apartment1br": "$430 / month",
+        "apartmentNote": "About ₸220,000 median 1-bed asking rent.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Baiterek_Astana.jpg/1280px-Baiterek_Astana.jpg",
+        "halls": "$70–$155 / month"
+      },
+      "almaty": {
+        "name": "Almaty",
+        "apartment1br": "$410 / month",
+        "apartmentNote": "About ₸210,000 median 1-bed asking rent.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Almaty_skyline.jpg/1280px-Almaty_skyline.jpg",
+        "halls": "$80–$165 / month"
+      }
+    }
+  },
+  "SG": {
+    "name": "Singapore",
+    "region": "Asia",
+    "blurb": "English is the classroom language. Housing is dear; the city safety score is among the world’s highest.",
+    "photo": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=1400&q=80",
+    "halls": "S$800–1,400 / month",
+    "cities": {
+      "singapore": {
+        "name": "Singapore",
+        "apartment1br": "S$3,800 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors. Halls are far cheaper when you can get a place.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Marina_Bay_Sands_in_the_evening.jpg/1280px-Marina_Bay_Sands_in_the_evening.jpg",
+        "halls": "S$350–S$720 / month"
+      }
+    }
+  },
+  "NO": {
+    "name": "Norway",
+    "region": "Europe",
+    "blurb": "Niche listing. English is mainly master’s-level at the publics; BI, NHH, and Agder add English bachelor’s. Non-EU tuition applies.",
+    "photo": "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "oslo": {
+        "name": "Oslo",
+        "apartment1br": "NOK 20,500 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors. Student halls (SiO) are much cheaper.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Universitetet_i_Oslo_sentrum.jpg",
+        "halls": "NOK 4,500–7,500 / month"
+      },
+      "bergen": {
+        "name": "Bergen",
+        "apartment1br": "NOK 14,400 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026.",
+        "photo": "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=1400&q=80",
+        "halls": "NOK 4,200–6,800 / month"
+      },
+      "trondheim": {
+        "name": "Trondheim",
+        "apartment1br": "NOK 14,100 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/NTNU_Trondheim_Mainbuilding.jpg/1280px-NTNU_Trondheim_Mainbuilding.jpg",
+        "halls": "NOK 4,000–6,500 / month"
+      },
+      "kristiansand": {
+        "name": "Kristiansand",
+        "apartment1br": "NOK 11,300 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Jun 2026 — the lowest 1-bed in this Norway set.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Uiakristiansand.png/1280px-Uiakristiansand.png",
+        "halls": "NOK 4,000–6,200 / month"
+      },
+      "tromso": {
+        "name": "Tromso",
+        "apartment1br": "NOK 13,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Tromso/1400/900",
+        "halls": "NOK 4,000–6,500 / month"
+      }
+    }
+  },
+  "AT": {
+    "name": "Austria",
+    "region": "Europe",
+    "blurb": "Public English master’s at €727 / semester for non-EU students. English bachelor’s are scarce except at WU, Vienna Data Science, and private campuses.",
+    "photo": "https://images.unsplash.com/photo-1601581875309-fafbf2d74b11?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "vienna": {
+        "name": "Vienna",
+        "apartment1br": "€1,161 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, 2026. Student halls are far cheaper.",
+        "photo": "https://images.unsplash.com/photo-1573592371950-348a8f1d9f38?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€350–€550 / month"
+      },
+      "graz": {
+        "name": "Graz",
+        "apartment1br": "€701 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, 2026.",
+        "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Graz_Hauptplatz.jpg/1280px-Graz_Hauptplatz.jpg",
+        "halls": "€300–€450 / month"
+      },
+      "innsbruck": {
+        "name": "Innsbruck",
+        "apartment1br": "€1,155 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, 2026. Alpine tourism lifts rents.",
+        "photo": "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€400–€550 / month"
+      },
+      "salzburg": {
+        "name": "Salzburg",
+        "apartment1br": "€1,275 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, 2026 — the dearest Austrian city in this sample.",
+        "photo": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€400–€550 / month"
+      },
+      "linz": {
+        "name": "Linz",
+        "apartment1br": "€729 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, 2026.",
+        "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€300–€450 / month"
+      }
+    }
+  },
+  "CZ": {
+    "name": "Czech Republic",
+    "region": "Europe",
+    "blurb": "Czech-taught degrees are free; English programs charge modest public tuition, with private Prague campuses at the high end.",
+    "photo": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "prague": {
+        "name": "Prague",
+        "apartment1br": "CZK 25,321 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026. Student halls (kolej) are far cheaper.",
+        "photo": "https://images.unsplash.com/photo-1450033882559-0a0d314a73ae?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CZK 4,000–6,500 / month"
+      },
+      "brno": {
+        "name": "Brno",
+        "apartment1br": "CZK 21,199 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026.",
+        "photo": "https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CZK 3,000–5,500 / month"
+      },
+      "olomouc": {
+        "name": "Olomouc",
+        "apartment1br": "CZK 15,350 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Jul 2026 — the lowest 1-bed in this Czech set.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CZK 3,000–5,000 / month"
+      }
+    }
+  },
+  "JP": {
+    "name": "Japan",
+    "region": "Asia",
+    "blurb": "Public English programs at about ¥535,800 / year. Private English-based schools in Tokyo cost more.",
+    "photo": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1400&q=80",
+    "halls": "JPY 40,000–80,000 / month",
+    "cities": {
+      "tokyo": {
+        "name": "Tokyo",
+        "apartment1br": "JPY 174,000 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1400&q=80",
+        "halls": "JPY 30,000–55,000 / month"
+      },
+      "kyoto": {
+        "name": "Kyoto",
+        "apartment1br": "JPY 110,000 / month",
+        "apartmentNote": "Cheaper than Tokyo.",
+        "photo": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1400&q=80",
+        "halls": "JPY 30,000–55,000 / month"
+      },
+      "osaka": {
+        "name": "Osaka",
+        "apartment1br": "JPY 120,000 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1590559899731-a382839e5549?auto=format&fit=crop&w=1400&q=80",
+        "halls": "JPY 30,000–55,000 / month"
+      },
+      "sendai": {
+        "name": "Sendai",
+        "apartment1br": "JPY 85,000 / month",
+        "apartmentNote": "Lower than the Kansai/Kanto cores.",
+        "photo": "https://images.unsplash.com/photo-1528164344705-47542687000d?auto=format&fit=crop&w=1400&q=80",
+        "halls": "JPY 30,000–55,000 / month"
+      },
+      "fukuoka": {
+        "name": "Fukuoka",
+        "apartment1br": "JPY 70,000 / month",
+        "apartmentNote": "Below Tokyo.",
+        "photo": "https://images.unsplash.com/photo-1528164344705-47542687000d?auto=format&fit=crop&w=1400&q=80",
+        "halls": "JPY 40,000–80,000 / month"
+      },
+      "nagoya": {
+        "name": "Nagoya",
+        "apartment1br": "JPY 80,000 / month",
+        "apartmentNote": "Below Tokyo.",
+        "photo": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=1400&q=80",
+        "halls": "JPY 40,000–80,000 / month"
+      },
+      "sapporo": {
+        "name": "Sapporo",
+        "apartment1br": "JPY 70,000 / month",
+        "apartmentNote": "Below Tokyo.",
+        "photo": "https://images.unsplash.com/photo-1528164344705-47542687000d?auto=format&fit=crop&w=1400&q=80",
+        "halls": "JPY 40,000–80,000 / month"
+      },
+      "tsukuba": {
+        "name": "Tsukuba",
+        "apartment1br": "JPY 75,000 / month",
+        "apartmentNote": "Science-city north of Tokyo; campus housing is common.",
+        "photo": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1400&q=80",
+        "halls": "JPY 40,000–80,000 / month"
+      },
+      "hiroshima": {
+        "name": "Hiroshima",
+        "apartment1br": "JPY 65,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Hiroshima/1400/900",
+        "halls": "JPY 40,000–80,000 / month"
+      },
+      "kobe": {
+        "name": "Kobe",
+        "apartment1br": "JPY 75,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Kobe/1400/900",
+        "halls": "JPY 40,000–80,000 / month"
+      },
+      "kanazawa": {
+        "name": "Kanazawa",
+        "apartment1br": "JPY 60,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Kanazawa/1400/900",
+        "halls": "JPY 40,000–80,000 / month"
+      },
+      "okayama": {
+        "name": "Okayama",
+        "apartment1br": "JPY 58,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Okayama/1400/900",
+        "halls": "JPY 40,000–80,000 / month"
+      },
+      "kumamoto": {
+        "name": "Kumamoto",
+        "apartment1br": "JPY 55,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Kumamoto/1400/900",
+        "halls": "JPY 40,000–80,000 / month"
+      }
+    }
+  },
+  "KR": {
+    "name": "South Korea",
+    "region": "Asia",
+    "blurb": "English is common in graduate STEM and at international colleges. Seoul living costs sit below Singapore.",
+    "photo": "https://images.unsplash.com/photo-1546874177-9e6641073140?auto=format&fit=crop&w=1400&q=80",
+    "halls": "KRW 300,000–600,000 / month",
+    "cities": {
+      "seoul": {
+        "name": "Seoul",
+        "apartment1br": "KRW 1,120,000 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1546874177-9e6641073140?auto=format&fit=crop&w=1400&q=80",
+        "halls": "KRW 250,000–450,000 / month"
+      },
+      "daejeon": {
+        "name": "Daejeon",
+        "apartment1br": "KRW 700,000 / month",
+        "apartmentNote": "Science-city rents below Seoul.",
+        "photo": "https://images.unsplash.com/photo-1517154421773-0529f29ea451?auto=format&fit=crop&w=1400&q=80",
+        "halls": "KRW 250,000–450,000 / month"
+      },
+      "pohang": {
+        "name": "Pohang",
+        "apartment1br": "KRW 550,000 / month",
+        "apartmentNote": "Coastal industrial city.",
+        "photo": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=1400&q=80",
+        "halls": "KRW 250,000–450,000 / month"
+      },
+      "busan": {
+        "name": "Busan",
+        "apartment1br": "KRW 800,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Busan/1400/900",
+        "halls": "KRW 300,000–600,000 / month"
+      },
+      "incheon": {
+        "name": "Incheon",
+        "apartment1br": "KRW 750,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Incheon/1400/900",
+        "halls": "KRW 300,000–600,000 / month"
+      },
+      "ulsan": {
+        "name": "Ulsan",
+        "apartment1br": "KRW 650,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Ulsan/1400/900",
+        "halls": "KRW 300,000–600,000 / month"
+      },
+      "gwangju": {
+        "name": "Gwangju",
+        "apartment1br": "KRW 600,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Gwangju/1400/900",
+        "halls": "KRW 300,000–600,000 / month"
+      }
+    }
+  },
+  "MY": {
+    "name": "Malaysia",
+    "region": "Asia",
+    "blurb": "Presence listing — Monash Malaysia and Universiti Malaya. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1596422846543-75c6fc197ea1?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "kuala-lumpur": {
+        "name": "Kuala Lumpur",
+        "apartment1br": "MYR 2,200 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1596422846543-75c6fc197ea1?auto=format&fit=crop&w=1400&q=80",
+        "halls": "MYR 400–800 / month"
+      },
+      "subang-jaya": {
+        "name": "Subang Jaya",
+        "apartment1br": "MYR 1,800 / month",
+        "apartmentNote": "Klang Valley suburb.",
+        "photo": "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1400&q=80",
+        "halls": "MYR 400–800 / month"
+      },
+      "penang": {
+        "name": "Penang",
+        "apartment1br": "MYR 1,800 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Penang/1400/900"
+      }
+    }
+  },
+  "TH": {
+    "name": "Thailand",
+    "region": "Asia",
+    "blurb": "Presence listing — Mahidol International College and Chulalongkorn. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1508009603885-50cf7c8dd0d5?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "bangkok": {
+        "name": "Bangkok",
+        "apartment1br": "THB 18,000 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1508009603885-50cf7c8dd0d5?auto=format&fit=crop&w=1400&q=80",
+        "halls": "THB 4,000–8,000 / month"
+      },
+      "chiang-mai": {
+        "name": "Chiang Mai",
+        "apartment1br": "THB 12,000 / month",
+        "apartmentNote": "High safety relative to Bangkok.",
+        "photo": "https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?auto=format&fit=crop&w=1400&q=80",
+        "halls": "THB 4,000–8,000 / month"
+      }
+    }
+  },
+  "TW": {
+    "name": "Taiwan",
+    "region": "Asia",
+    "blurb": "High safety scores and modest public tuition for English-taught STEM and business.",
+    "photo": "https://images.unsplash.com/photo-1470004914212-05527e49370b?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "taipei": {
+        "name": "Taipei",
+        "apartment1br": "TWD 25,000 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1470004914212-05527e49370b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "TWD 6,000–10,000 / month"
+      },
+      "hsinchu": {
+        "name": "Hsinchu",
+        "apartment1br": "TWD 18,000 / month",
+        "apartmentNote": "Science-park city.",
+        "photo": "https://images.unsplash.com/photo-1514565131-fce0801d1232?auto=format&fit=crop&w=1400&q=80",
+        "halls": "TWD 6,000–10,000 / month"
+      },
+      "tainan": {
+        "name": "Tainan",
+        "apartment1br": "TWD 14,000 / month",
+        "apartmentNote": "Lower than Taipei.",
+        "photo": "https://images.unsplash.com/photo-1508804185872-d7badb00b47d?auto=format&fit=crop&w=1400&q=80",
+        "halls": "TWD 6,000–10,000 / month"
+      }
+    }
+  },
+  "AE": {
+    "name": "United Arab Emirates",
+    "region": "Middle East",
+    "blurb": "English-medium campuses in Abu Dhabi, Dubai, and Sharjah. Safety scores are among the world’s highest.",
+    "photo": "https://images.unsplash.com/photo-1512453979798-5ea933fb9711?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "abu-dhabi": {
+        "name": "Abu Dhabi",
+        "apartment1br": "AED 5,500 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1400&q=80",
+        "halls": "AED 1,800–3,500 / month"
+      },
+      "dubai": {
+        "name": "Dubai",
+        "apartment1br": "AED 7,500 / month",
+        "apartmentNote": "Dearer than Abu Dhabi.",
+        "photo": "https://images.unsplash.com/photo-1512453979798-5ea933fb9711?auto=format&fit=crop&w=1400&q=80",
+        "halls": "AED 1,800–3,500 / month"
+      },
+      "sharjah": {
+        "name": "Sharjah",
+        "apartment1br": "AED 3,800 / month",
+        "apartmentNote": "Below Dubai rents.",
+        "photo": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1400&q=80",
+        "halls": "AED 1,800–3,500 / month"
+      },
+      "al-ain": {
+        "name": "Al Ain",
+        "apartment1br": "AED 3,200 / month",
+        "apartmentNote": "Garden-city rents.",
+        "photo": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1400&q=80",
+        "halls": "AED 1,800–3,500 / month"
+      }
+    }
+  },
+  "QA": {
+    "name": "Qatar",
+    "region": "Middle East",
+    "blurb": "Presence listing — Georgetown and Carnegie Mellon in Education City. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1555881403-169cc2f519bb?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "doha": {
+        "name": "Doha",
+        "apartment1br": "QAR 5,500 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1555881403-169cc2f519bb?auto=format&fit=crop&w=1400&q=80",
+        "halls": "QAR 2,000–4,000 / month"
+      }
+    }
+  },
+  "MX": {
+    "name": "Mexico",
+    "region": "Latin America",
+    "blurb": "Tec and UDLAP run full English or bilingual degrees. ITAM, Ibero, and Anáhuac are listed for English master’s, not mixed-language bachelor’s.",
+    "photo": "https://images.unsplash.com/photo-1518659526054-54fe4b4c6c60?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "monterrey": {
+        "name": "Monterrey",
+        "apartment1br": "MXN 14,000 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+        "halls": "MXN 4,000–8,000 / month"
+      },
+      "mexico-city": {
+        "name": "Mexico City",
+        "apartment1br": "MXN 18,000 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1518659526054-54fe4b4c6c60?auto=format&fit=crop&w=1400&q=80",
+        "halls": "MXN 4,000–8,000 / month"
+      },
+      "puebla": {
+        "name": "Puebla",
+        "apartment1br": "MXN 10,000 / month",
+        "apartmentNote": "Below Mexico City rents.",
+        "photo": "https://images.unsplash.com/photo-1518105779142-d975f22f7d1f?auto=format&fit=crop&w=1400&q=80",
+        "halls": "MXN 4,000–8,000 / month"
+      },
+      "guadalajara": {
+        "name": "Guadalajara",
+        "apartment1br": "MXN 14,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Guadalajara/1400/900"
+      }
+    }
+  },
+  "CL": {
+    "name": "Chile",
+    "region": "Latin America",
+    "blurb": "Presence listing — PUC Chile English master’s. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "santiago": {
+        "name": "Santiago",
+        "apartment1br": "CLP 550,000 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1493246507139-91e8fad9978e?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CLP 180,000–320,000 / month"
+      }
+    }
+  },
+  "AR": {
+    "name": "Argentina",
+    "region": "Latin America",
+    "blurb": "Presence listing — Universidad de San Andrés. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1589909202802-8f4aad14052c?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "buenos-aires": {
+        "name": "Buenos Aires",
+        "apartment1br": "$500 / month",
+        "apartmentNote": "Quoted in USD; local peso rents move fast.",
+        "photo": "https://images.unsplash.com/photo-1589909202802-8f4aad14052c?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$250–$400 / month"
+      }
+    }
+  },
+  "CO": {
+    "name": "Colombia",
+    "region": "Latin America",
+    "blurb": "Presence listing — Universidad de los Andes. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1531761535209-180857e1b4ce?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "bogota": {
+        "name": "Bogotá",
+        "apartment1br": "COP 2,200,000 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1531761535209-180857e1b4ce?auto=format&fit=crop&w=1400&q=80",
+        "halls": "COP 700,000–1,200,000 / month"
+      },
+      "medellin": {
+        "name": "Medellin",
+        "apartment1br": "COP 2,200,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Medellin/1400/900",
+        "halls": "COP 700,000–1,200,000 / month"
+      }
+    }
+  },
+  "BR": {
+    "name": "Brazil",
+    "region": "Latin America",
+    "blurb": "Solid listing of verified full English-taught degrees — not every Portuguese campus. FGV EAESP (São Paulo) and SKEMA (Belo Horizonte) offer English bachelor’s; FGV EBAPE and COPPEAD/UFRJ are English master’s in Rio. Public bachelor’s remain Portuguese.",
+    "photo": "https://images.unsplash.com/photo-1483729558449-99ef03a2d348?auto=format&fit=crop&w=1400&q=80",
+    "halls": "BRL 800–1,600 / month",
+    "cities": {
+      "sao-paulo": {
+        "name": "São Paulo",
+        "apartment1br": "BRL 3,500 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1483729558449-99ef03a2d348?auto=format&fit=crop&w=1400&q=80",
+        "halls": "BRL 800–1,600 / month"
+      },
+      "rio-de-janeiro": {
+        "name": "Rio de Janeiro",
+        "apartment1br": "BRL 3,200 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1483729558449-99ef03a2d348?auto=format&fit=crop&w=1400&q=80",
+        "halls": "BRL 800–1,600 / month"
+      },
+      "campinas": {
+        "name": "Campinas",
+        "apartment1br": "BRL 2,400 / month",
+        "apartmentNote": "Below São Paulo rents.",
+        "photo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+        "halls": "BRL 800–1,600 / month"
+      },
+      "belo-horizonte": {
+        "name": "Belo Horizonte",
+        "apartment1br": "BRL 2,200 / month",
+        "apartmentNote": "Below São Paulo and Rio.",
+        "photo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+        "halls": "BRL 800–1,600 / month"
+      }
+    }
+  },
+  "ZA": {
+    "name": "South Africa",
+    "region": "Africa",
+    "blurb": "Presence listing — UCT and Stellenbosch. English is the classroom language. City safety scores are the lowest in this directory.",
+    "photo": "https://images.unsplash.com/photo-1577948000111-9c970dfe3743?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "cape-town": {
+        "name": "Cape Town",
+        "apartment1br": "ZAR 12,000 / month",
+        "apartmentNote": "City-centre 1-bed sample. Neighbourhoods vary widely.",
+        "photo": "https://images.unsplash.com/photo-1577948000111-9c970dfe3743?auto=format&fit=crop&w=1400&q=80",
+        "halls": "ZAR 3,500–6,500 / month"
+      },
+      "johannesburg": {
+        "name": "Johannesburg",
+        "apartment1br": "ZAR 8,500 / month",
+        "apartmentNote": "City-centre 1-bed; safety varies by suburb.",
+        "photo": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1400&q=80",
+        "halls": "ZAR 3,500–6,500 / month"
+      },
+      "stellenbosch": {
+        "name": "Stellenbosch",
+        "apartment1br": "ZAR 9,900 / month",
+        "apartmentNote": "Student-town 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=1400&q=80",
+        "halls": "ZAR 3,500–6,500 / month"
+      },
+      "pretoria": {
+        "name": "Pretoria",
+        "apartment1br": "ZAR 8,000 / month",
+        "apartmentNote": "Capital 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1400&q=80",
+        "halls": "ZAR 3,500–6,500 / month"
+      },
+      "durban": {
+        "name": "Durban",
+        "apartment1br": "ZAR 8,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Durban/1400/900"
+      }
+    }
+  },
+  "GH": {
+    "name": "Ghana",
+    "region": "Africa",
+    "blurb": "Presence listing — Ashesi and the University of Ghana. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "accra": {
+        "name": "Accra",
+        "apartment1br": "$534 / month",
+        "apartmentNote": "City-centre 1-bed sample (often quoted in USD/GHS).",
+        "photo": "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?auto=format&fit=crop&w=1400&q=80",
+        "halls": "GHS 800–1,800 / month"
+      },
+      "berekuso": {
+        "name": "Berekuso",
+        "apartment1br": "$400 / month",
+        "apartmentNote": "Hill campus; many students live on site.",
+        "photo": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+        "halls": "GHS 800–1,800 / month"
+      },
+      "kumasi": {
+        "name": "Kumasi",
+        "apartment1br": "GHS 3,500 / month",
+        "apartmentNote": "Below Accra rents.",
+        "photo": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=1400&q=80",
+        "halls": "GHS 800–1,800 / month"
+      }
+    }
+  },
+  "KE": {
+    "name": "Kenya",
+    "region": "Africa",
+    "blurb": "Presence listing — Strathmore and USIU-Africa. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "nairobi": {
+        "name": "Nairobi",
+        "apartment1br": "KES 70,000 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?auto=format&fit=crop&w=1400&q=80",
+        "halls": "KES 8,000–18,000 / month"
+      }
+    }
+  },
+  "DE": {
+    "name": "Germany",
+    "region": "Europe",
+    "blurb": "Full listing. English is strongest at master’s level. Berlin/NRW/Hesse often charge a semester contribution only; Bavaria and Baden-Württemberg bill non-EU tuition.",
+    "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€250–€450 / month",
+    "cities": {
+      "munich": {
+        "name": "Munich",
+        "apartment1br": "€1,519 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1595867818082-083862f3d630?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "aachen": {
+        "name": "Aachen",
+        "apartment1br": "€800 / month",
+        "apartmentNote": "Student-city 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "berlin": {
+        "name": "Berlin",
+        "apartment1br": "€1,277 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "freiburg": {
+        "name": "Freiburg",
+        "apartment1br": "€950 / month",
+        "apartmentNote": "Demand is high in term-time.",
+        "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "bremen": {
+        "name": "Bremen",
+        "apartment1br": "€850 / month",
+        "apartmentNote": "Below Munich and Berlin.",
+        "photo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€730 / month (room €1,890 + board €2,500 per semester, 2026/27)"
+      },
+      "heidelberg": {
+        "name": "Heidelberg",
+        "apartment1br": "€900 / month",
+        "apartmentNote": "Student-city demand is tight.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "karlsruhe": {
+        "name": "Karlsruhe",
+        "apartment1br": "€850 / month",
+        "apartmentNote": "Below Munich.",
+        "photo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "stuttgart": {
+        "name": "Stuttgart",
+        "apartment1br": "€1,100 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "hamburg": {
+        "name": "Hamburg",
+        "apartment1br": "€1,200 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "cologne": {
+        "name": "Cologne",
+        "apartment1br": "€1,000 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "bonn": {
+        "name": "Bonn",
+        "apartment1br": "€850 / month",
+        "apartmentNote": "Below Cologne.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "mannheim": {
+        "name": "Mannheim",
+        "apartment1br": "€800 / month",
+        "apartmentNote": "Below Stuttgart.",
+        "photo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "darmstadt": {
+        "name": "Darmstadt",
+        "apartment1br": "€850 / month",
+        "apartmentNote": "South of Frankfurt.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "gottingen": {
+        "name": "Göttingen",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "University-town 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "frankfurt": {
+        "name": "Frankfurt",
+        "apartment1br": "€1,200 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "fulda": {
+        "name": "Fulda",
+        "apartment1br": "€750 / month",
+        "apartmentNote": "Below Frankfurt; compact Hessian city.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "dresden": {
+        "name": "Dresden",
+        "apartment1br": "€750 / month",
+        "apartmentNote": "Below Munich and Berlin.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "munster": {
+        "name": "Münster",
+        "apartment1br": "€850 / month",
+        "apartmentNote": "Student-city demand is tight.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "erlangen": {
+        "name": "Erlangen",
+        "apartment1br": "€800 / month",
+        "apartmentNote": "Below Munich; Nuremberg is next door.",
+        "photo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "leipzig": {
+        "name": "Leipzig",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Leipzig/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "jena": {
+        "name": "Jena",
+        "apartment1br": "€600 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Jena/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "mainz": {
+        "name": "Mainz",
+        "apartment1br": "€800 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Mainz/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "bochum": {
+        "name": "Bochum",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Bochum/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "kiel": {
+        "name": "Kiel",
+        "apartment1br": "€750 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Kiel/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "konstanz": {
+        "name": "Konstanz",
+        "apartment1br": "€950 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Konstanz/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "wurzburg": {
+        "name": "Wurzburg",
+        "apartment1br": "€800 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Wurzburg/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "regensburg": {
+        "name": "Regensburg",
+        "apartment1br": "€800 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Regensburg/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "potsdam": {
+        "name": "Potsdam",
+        "apartment1br": "€900 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Potsdam/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "essen": {
+        "name": "Essen",
+        "apartment1br": "€750 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Essen/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "dortmund": {
+        "name": "Dortmund",
+        "apartment1br": "€750 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Dortmund/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "hannover": {
+        "name": "Hannover",
+        "apartment1br": "€850 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Hannover/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "braunschweig": {
+        "name": "Braunschweig",
+        "apartment1br": "€750 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Braunschweig/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "bielefeld": {
+        "name": "Bielefeld",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Bielefeld/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "bayreuth": {
+        "name": "Bayreuth",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Bayreuth/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "ulm": {
+        "name": "Ulm",
+        "apartment1br": "€850 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Ulm/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "saarbrucken": {
+        "name": "Saarbrucken",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Saarbrucken/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "marburg": {
+        "name": "Marburg",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Marburg/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "giessen": {
+        "name": "Giessen",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Giessen/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "kassel": {
+        "name": "Kassel",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Kassel/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "magdeburg": {
+        "name": "Magdeburg",
+        "apartment1br": "€600 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Magdeburg/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "rostock": {
+        "name": "Rostock",
+        "apartment1br": "€650 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Rostock/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "passau": {
+        "name": "Passau",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Passau/1400/900",
+        "halls": "€250–€450 / month"
+      },
+      "augsburg": {
+        "name": "Augsburg",
+        "apartment1br": "€800 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Augsburg/1400/900",
+        "halls": "€250–€450 / month"
+      }
+    }
+  },
+  "NL": {
+    "name": "Netherlands",
+    "region": "Europe",
+    "blurb": "Full listing. The densest English bachelor catalogue in continental Europe. Non-EU institutional fees are real tuition; EU statutory 2026–27 is €2,694.",
+    "photo": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€500–€900 / month",
+    "cities": {
+      "amsterdam": {
+        "name": "Amsterdam",
+        "apartment1br": "€2,280 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026. Housing is the Dutch bottleneck.",
+        "photo": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€500–€900 / month"
+      },
+      "delft": {
+        "name": "Delft",
+        "apartment1br": "€1,200 / month",
+        "apartmentNote": "Student-town demand is tight.",
+        "photo": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€500–€900 / month"
+      },
+      "rotterdam": {
+        "name": "Rotterdam",
+        "apartment1br": "€1,400 / month",
+        "apartmentNote": "Below Amsterdam.",
+        "photo": "https://images.unsplash.com/photo-1512470876302-972faa54efd4?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€500–€900 / month"
+      },
+      "utrecht": {
+        "name": "Utrecht",
+        "apartment1br": "€1,500 / month",
+        "apartmentNote": "Student housing is scarce.",
+        "photo": "https://images.unsplash.com/photo-1555881403-169cc2f519bb?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€500–€900 / month"
+      },
+      "maastricht": {
+        "name": "Maastricht",
+        "apartment1br": "€1,100 / month",
+        "apartmentNote": "Below the Randstad core.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€500–€900 / month"
+      },
+      "leiden": {
+        "name": "Leiden",
+        "apartment1br": "€1,300 / month",
+        "apartmentNote": "Student-city 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€500–€900 / month"
+      },
+      "groningen": {
+        "name": "Groningen",
+        "apartment1br": "€1,000 / month",
+        "apartmentNote": "Below the Randstad.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€500–€900 / month"
+      },
+      "wageningen": {
+        "name": "Wageningen",
+        "apartment1br": "€950 / month",
+        "apartmentNote": "Campus town.",
+        "photo": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€500–€900 / month"
+      },
+      "eindhoven": {
+        "name": "Eindhoven",
+        "apartment1br": "€1,200 / month",
+        "apartmentNote": "Tech-city 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€500–€900 / month"
+      },
+      "enschede": {
+        "name": "Enschede",
+        "apartment1br": "€850 / month",
+        "apartmentNote": "Eastern campus city.",
+        "photo": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€500–€900 / month"
+      },
+      "nijmegen": {
+        "name": "Nijmegen",
+        "apartment1br": "€950 / month",
+        "apartmentNote": "Below Amsterdam.",
+        "photo": "https://images.unsplash.com/photo-1555881403-169cc2f519bb?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€500–€900 / month"
+      },
+      "tilburg": {
+        "name": "Tilburg",
+        "apartment1br": "€900 / month",
+        "apartmentNote": "Below the Randstad core.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€500–€900 / month"
+      },
+      "breukelen": {
+        "name": "Breukelen",
+        "apartment1br": "€1,100 / month",
+        "apartmentNote": "Between Amsterdam and Utrecht.",
+        "photo": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€500–€900 / month"
+      },
+      "the-hague": {
+        "name": "The Hague",
+        "apartment1br": "€1,400 / month",
+        "apartmentNote": "Below Amsterdam; demand is tight.",
+        "photo": "https://images.unsplash.com/photo-1555881403-169cc2f519bb?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€500–€900 / month"
+      },
+      "apeldoorn": {
+        "name": "Apeldoorn",
+        "apartment1br": "€1,000 / month",
+        "apartmentNote": "Below Amsterdam and Utrecht.",
+        "photo": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€500–€900 / month"
+      }
+    }
+  },
+  "FR": {
+    "name": "France",
+    "region": "Europe",
+    "blurb": "Public non-EU rates are still low; Sciences Po and AUP are a different price list. English is stronger at master’s level.",
+    "photo": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€250–€600 / month",
+    "cities": {
+      "paris": {
+        "name": "Paris",
+        "apartment1br": "€1,407 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€600 / month"
+      },
+      "palaiseau": {
+        "name": "Palaiseau",
+        "apartment1br": "€1,100 / month",
+        "apartmentNote": "Campus town south of Paris.",
+        "photo": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€600 / month"
+      },
+      "lyon": {
+        "name": "Lyon",
+        "apartment1br": "€785 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1524396309943-e03cc5056f1c?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€600 / month"
+      },
+      "jouy-en-josas": {
+        "name": "Jouy-en-Josas",
+        "apartment1br": "€1,100 / month",
+        "apartmentNote": "Campus town near Paris.",
+        "photo": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€600 / month"
+      },
+      "cergy": {
+        "name": "Cergy",
+        "apartment1br": "€950 / month",
+        "apartmentNote": "West of Paris.",
+        "photo": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€600 / month"
+      },
+      "grenoble": {
+        "name": "Grenoble",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "Alpine student city.",
+        "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€600 / month"
+      },
+      "strasbourg": {
+        "name": "Strasbourg",
+        "apartment1br": "€750 / month",
+        "apartmentNote": "Below Paris.",
+        "photo": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€600 / month"
+      },
+      "marseille": {
+        "name": "Marseille",
+        "apartment1br": "€800 / month",
+        "apartmentNote": "Below Paris; neighbourhoods vary.",
+        "photo": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€600 / month"
+      },
+      "toulouse": {
+        "name": "Toulouse",
+        "apartment1br": "€750 / month",
+        "apartmentNote": "Student-city 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1524396309943-e03cc5056f1c?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€600 / month"
+      },
+      "bordeaux": {
+        "name": "Bordeaux",
+        "apartment1br": "€800 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Bordeaux/1400/900",
+        "halls": "€250–€600 / month"
+      },
+      "montpellier": {
+        "name": "Montpellier",
+        "apartment1br": "€750 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Montpellier/1400/900",
+        "halls": "€250–€600 / month"
+      },
+      "nantes": {
+        "name": "Nantes",
+        "apartment1br": "€750 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Nantes/1400/900",
+        "halls": "€250–€600 / month"
+      },
+      "lille": {
+        "name": "Lille",
+        "apartment1br": "€750 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Lille/1400/900",
+        "halls": "€250–€600 / month"
+      },
+      "nice": {
+        "name": "Nice",
+        "apartment1br": "€950 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Nice/1400/900",
+        "halls": "€250–€600 / month"
+      },
+      "rennes": {
+        "name": "Rennes",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Rennes/1400/900",
+        "halls": "€250–€600 / month"
+      },
+      "tours": {
+        "name": "Tours",
+        "apartment1br": "€650 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Tours/1400/900",
+        "halls": "€250–€600 / month"
+      },
+      "clermont-ferrand": {
+        "name": "Clermont-Ferrand",
+        "apartment1br": "€650 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Clermont-Ferrand/1400/900",
+        "halls": "€250–€600 / month"
+      },
+      "dijon": {
+        "name": "Dijon",
+        "apartment1br": "€650 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Dijon/1400/900",
+        "halls": "€250–€600 / month"
+      },
+      "caen": {
+        "name": "Caen",
+        "apartment1br": "€650 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Caen/1400/900",
+        "halls": "€250–€600 / month"
+      },
+      "rouen": {
+        "name": "Rouen",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Rouen/1400/900",
+        "halls": "€250–€600 / month"
+      },
+      "poitiers": {
+        "name": "Poitiers",
+        "apartment1br": "€600 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Poitiers/1400/900",
+        "halls": "€250–€600 / month"
+      }
+    }
+  },
+  "IE": {
+    "name": "Ireland",
+    "region": "Europe",
+    "blurb": "Full listing for a small English-medium system. Non-EU fees sit near a US out-of-state public; eligible EU undergraduates often pay a student contribution near €3,000. Dublin rents are high.",
+    "photo": "https://images.unsplash.com/photo-1549918864-48ac978761a4?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€700–€1,100 / month",
+    "cities": {
+      "dublin": {
+        "name": "Dublin",
+        "apartment1br": "€2,148 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026. Among Europe’s dearest.",
+        "photo": "https://images.unsplash.com/photo-1549918864-48ac978761a4?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€700–€1,100 / month"
+      },
+      "galway": {
+        "name": "Galway",
+        "apartment1br": "€1,400 / month",
+        "apartmentNote": "Below Dublin.",
+        "photo": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€700–€1,100 / month"
+      },
+      "cork": {
+        "name": "Cork",
+        "apartment1br": "€1,500 / month",
+        "apartmentNote": "Second-city rents.",
+        "photo": "https://images.unsplash.com/photo-1590083949123-2587d098c572?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€700–€1,100 / month"
+      },
+      "limerick": {
+        "name": "Limerick",
+        "apartment1br": "€1,200 / month",
+        "apartmentNote": "Below Dublin and Cork.",
+        "photo": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€700–€1,100 / month"
+      },
+      "maynooth": {
+        "name": "Maynooth",
+        "apartment1br": "€1,200 / month",
+        "apartmentNote": "Below central Dublin.",
+        "photo": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€700–€1,100 / month"
+      },
+      "waterford": {
+        "name": "Waterford",
+        "apartment1br": "€1,000 / month",
+        "apartmentNote": "Below Dublin.",
+        "photo": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€700–€1,100 / month"
+      },
+      "sligo": {
+        "name": "Sligo",
+        "apartment1br": "€850 / month",
+        "apartmentNote": "Atlantic campus city.",
+        "photo": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€700–€1,100 / month"
+      },
+      "athlone": {
+        "name": "Athlone",
+        "apartment1br": "€800 / month",
+        "apartmentNote": "Midlands town.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€700–€1,100 / month"
+      }
+    }
+  },
+  "BE": {
+    "name": "Belgium",
+    "region": "Europe",
+    "blurb": "Solid listing. English is strongest at master’s level at the publics; EU statutory fees stay near €1,100. Non-EU is still below typical Dutch institutional fees.",
+    "photo": "https://images.unsplash.com/photo-1559113202-c916b8e44373?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€250–€450 / month",
+    "cities": {
+      "leuven": {
+        "name": "Leuven",
+        "apartment1br": "€950 / month",
+        "apartmentNote": "Student-city 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1559113202-c916b8e44373?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€350–€550 / month"
+      },
+      "ghent": {
+        "name": "Ghent",
+        "apartment1br": "€900 / month",
+        "apartmentNote": "Student-city 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€350–€550 / month"
+      },
+      "brussels": {
+        "name": "Brussels",
+        "apartment1br": "€1,226 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€350–€550 / month"
+      },
+      "louvain-la-neuve": {
+        "name": "Louvain-la-Neuve",
+        "apartment1br": "€800 / month",
+        "apartmentNote": "Purpose-built university town.",
+        "photo": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€350–€550 / month"
+      },
+      "antwerp": {
+        "name": "Antwerp",
+        "apartment1br": "€950 / month",
+        "apartmentNote": "Below Brussels.",
+        "photo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€350–€550 / month"
+      },
+      "liege": {
+        "name": "Liège",
+        "apartment1br": "€750 / month",
+        "apartmentNote": "Below Brussels.",
+        "photo": "https://images.unsplash.com/photo-1559113202-c916b8e44373?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "hasselt": {
+        "name": "Hasselt",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "Limburg campus city.",
+        "photo": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "namur": {
+        "name": "Namur",
+        "apartment1br": "€750 / month",
+        "apartmentNote": "Below Brussels.",
+        "photo": "https://images.unsplash.com/photo-1559113202-c916b8e44373?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "mons": {
+        "name": "Mons",
+        "apartment1br": "€650 / month",
+        "apartmentNote": "Below Brussels.",
+        "photo": "https://images.unsplash.com/photo-1559113202-c916b8e44373?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      }
+    }
+  },
+  "PL": {
+    "name": "Poland",
+    "region": "Europe",
+    "blurb": "English-taught degrees at a few thousand euros a year. Warsaw and Kraków are the search magnets.",
+    "photo": "https://images.unsplash.com/photo-1519197924294-4ba991a11128?auto=format&fit=crop&w=1400&q=80",
+    "halls": "PLN 800–1,500 / month",
+    "cities": {
+      "warsaw": {
+        "name": "Warsaw",
+        "apartment1br": "PLN 4,800 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1519197924294-4ba991a11128?auto=format&fit=crop&w=1400&q=80",
+        "halls": "PLN 800–1,500 / month"
+      },
+      "krakow": {
+        "name": "Kraków",
+        "apartment1br": "PLN 3,200 / month",
+        "apartmentNote": "Below Warsaw.",
+        "photo": "https://images.unsplash.com/photo-1493707553966-283afac8c58d?auto=format&fit=crop&w=1400&q=80",
+        "halls": "PLN 800–1,500 / month"
+      },
+      "poznan": {
+        "name": "Poznań",
+        "apartment1br": "PLN 2,800 / month",
+        "apartmentNote": "Regional student city.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "PLN 800–1,500 / month"
+      },
+      "wroc-aw": {
+        "name": "Wrocław",
+        "apartment1br": "PLN 2,900 / month",
+        "apartmentNote": "Below Warsaw.",
+        "photo": "https://images.unsplash.com/photo-1519197924294-4ba991a11128?auto=format&fit=crop&w=1400&q=80",
+        "halls": "PLN 800–1,500 / month"
+      },
+      "gdansk": {
+        "name": "Gdansk",
+        "apartment1br": "PLN 2,800 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Gdansk/1400/900",
+        "halls": "PLN 800–1,500 / month"
+      },
+      "lodz": {
+        "name": "Lodz",
+        "apartment1br": "PLN 2,400 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Lodz/1400/900",
+        "halls": "PLN 800–1,500 / month"
+      },
+      "torun": {
+        "name": "Torun",
+        "apartment1br": "PLN 2,200 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Torun/1400/900",
+        "halls": "PLN 800–1,500 / month"
+      },
+      "katowice": {
+        "name": "Katowice",
+        "apartment1br": "PLN 2,400 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Katowice/1400/900",
+        "halls": "PLN 800–1,500 / month"
+      },
+      "lublin": {
+        "name": "Lublin",
+        "apartment1br": "PLN 2,200 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Lublin/1400/900",
+        "halls": "PLN 800–1,500 / month"
+      }
+    }
+  },
+  "PT": {
+    "name": "Portugal",
+    "region": "Europe",
+    "blurb": "Public English master’s at modest non-EU fees. Nova SBE and Católica are the dearer Lisbon business options.",
+    "photo": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€250–€450 / month",
+    "cities": {
+      "lisbon": {
+        "name": "Lisbon",
+        "apartment1br": "€1,456 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "porto": {
+        "name": "Porto",
+        "apartment1br": "€850 / month",
+        "apartmentNote": "Below Lisbon.",
+        "photo": "https://images.unsplash.com/photo-1555881403-169cc2f6e8ef?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "coimbra": {
+        "name": "Coimbra",
+        "apartment1br": "€650 / month",
+        "apartmentNote": "University-town 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "braga": {
+        "name": "Braga",
+        "apartment1br": "€650 / month",
+        "apartmentNote": "Below Lisbon and Porto.",
+        "photo": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "aveiro": {
+        "name": "Aveiro",
+        "apartment1br": "€600 / month",
+        "apartmentNote": "Lagoon university city.",
+        "photo": "https://images.unsplash.com/photo-1555881403-169cc2f6e8ef?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      }
+    }
+  },
+  "ES": {
+    "name": "Spain",
+    "region": "Europe",
+    "blurb": "Public English bachelor’s at UC3M and UPF; IE and ESADE price like private US campuses.",
+    "photo": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€350–€600 / month",
+    "cities": {
+      "madrid": {
+        "name": "Madrid",
+        "apartment1br": "€1,360 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€350–€600 / month"
+      },
+      "barcelona": {
+        "name": "Barcelona",
+        "apartment1br": "€1,459 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1583422409516-2895a77efded?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€350–€600 / month"
+      },
+      "pamplona": {
+        "name": "Pamplona",
+        "apartment1br": "€800 / month",
+        "apartmentNote": "Below Madrid and Barcelona.",
+        "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€350–€600 / month"
+      },
+      "valencia": {
+        "name": "Valencia",
+        "apartment1br": "€900 / month",
+        "apartmentNote": "Below Madrid and Barcelona.",
+        "photo": "https://images.unsplash.com/photo-1539037116277-4db20889f2d4?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€350–€600 / month"
+      },
+      "seville": {
+        "name": "Seville",
+        "apartment1br": "€800 / month",
+        "apartmentNote": "Below Madrid.",
+        "photo": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€350–€600 / month"
+      },
+      "granada": {
+        "name": "Granada",
+        "apartment1br": "€650 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Granada/1400/900",
+        "halls": "€350–€600 / month"
+      },
+      "zaragoza": {
+        "name": "Zaragoza",
+        "apartment1br": "€650 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Zaragoza/1400/900",
+        "halls": "€350–€600 / month"
+      },
+      "salamanca": {
+        "name": "Salamanca",
+        "apartment1br": "€600 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Salamanca/1400/900",
+        "halls": "€350–€600 / month"
+      },
+      "malaga": {
+        "name": "Malaga",
+        "apartment1br": "€750 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Malaga/1400/900",
+        "halls": "€350–€600 / month"
+      },
+      "bilbao": {
+        "name": "Bilbao",
+        "apartment1br": "€850 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Bilbao/1400/900",
+        "halls": "€350–€600 / month"
+      },
+      "santiago-de-compostela": {
+        "name": "Santiago de Compostela",
+        "apartment1br": "€600 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Santiago de Compostela/1400/900",
+        "halls": "€350–€600 / month"
+      },
+      "oviedo": {
+        "name": "Oviedo",
+        "apartment1br": "€600 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Oviedo/1400/900",
+        "halls": "€350–€600 / month"
+      },
+      "alicante": {
+        "name": "Alicante",
+        "apartment1br": "€650 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Alicante/1400/900",
+        "halls": "€350–€600 / month"
+      },
+      "murcia": {
+        "name": "Murcia",
+        "apartment1br": "€600 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Murcia/1400/900",
+        "halls": "€350–€600 / month"
+      }
+    }
+  },
+  "IT": {
+    "name": "Italy",
+    "region": "Europe",
+    "blurb": "Solid-to-full English set — not every Italian campus. Public fees are income-banded; Bocconi, Luiss, and John Cabot are the English private contrast. Trento adds a dense English bachelor and master’s list.",
+    "photo": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€300–€550 / month",
+    "cities": {
+      "milan": {
+        "name": "Milan",
+        "apartment1br": "€1,530 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€300–€550 / month"
+      },
+      "rome": {
+        "name": "Rome",
+        "apartment1br": "€1,073 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€300–€550 / month"
+      },
+      "bologna": {
+        "name": "Bologna",
+        "apartment1br": "€900 / month",
+        "apartmentNote": "Student-city 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€300–€550 / month"
+      },
+      "turin": {
+        "name": "Turin",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "Below Milan.",
+        "photo": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€300–€550 / month"
+      },
+      "padua": {
+        "name": "Padua",
+        "apartment1br": "€750 / month",
+        "apartmentNote": "University-town 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€300–€550 / month"
+      },
+      "venice": {
+        "name": "Venice",
+        "apartment1br": "€1,000 / month",
+        "apartmentNote": "Housing is scarce.",
+        "photo": "https://images.unsplash.com/photo-1514890547357-a9ee288728e0?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€300–€550 / month"
+      },
+      "florence": {
+        "name": "Florence",
+        "apartment1br": "€950 / month",
+        "apartmentNote": "Tourism lifts rents.",
+        "photo": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€300–€550 / month"
+      },
+      "naples": {
+        "name": "Naples",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "Below Milan and Rome.",
+        "photo": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€300–€550 / month"
+      },
+      "trento": {
+        "name": "Trento",
+        "apartment1br": "€800 / month",
+        "apartmentNote": "Below Milan; Alpine university city.",
+        "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€300–€550 / month"
+      },
+      "pisa": {
+        "name": "Pisa",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Pisa/1400/900",
+        "halls": "€300–€550 / month"
+      },
+      "genoa": {
+        "name": "Genoa",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Genoa/1400/900",
+        "halls": "€300–€550 / month"
+      },
+      "pavia": {
+        "name": "Pavia",
+        "apartment1br": "€650 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Pavia/1400/900",
+        "halls": "€300–€550 / month"
+      },
+      "verona": {
+        "name": "Verona",
+        "apartment1br": "€750 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Verona/1400/900",
+        "halls": "€300–€550 / month"
+      },
+      "siena": {
+        "name": "Siena",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Siena/1400/900",
+        "halls": "€300–€550 / month"
+      },
+      "bari": {
+        "name": "Bari",
+        "apartment1br": "€600 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Bari/1400/900",
+        "halls": "€300–€550 / month"
+      },
+      "palermo": {
+        "name": "Palermo",
+        "apartment1br": "€600 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Palermo/1400/900",
+        "halls": "€300–€550 / month"
+      },
+      "catania": {
+        "name": "Catania",
+        "apartment1br": "€550 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Catania/1400/900",
+        "halls": "€300–€550 / month"
+      },
+      "trieste": {
+        "name": "Trieste",
+        "apartment1br": "€650 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Trieste/1400/900",
+        "halls": "€300–€550 / month"
+      },
+      "parma": {
+        "name": "Parma",
+        "apartment1br": "€650 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Parma/1400/900",
+        "halls": "€300–€550 / month"
+      }
+    }
+  },
+  "FI": {
+    "name": "Finland",
+    "region": "Europe",
+    "blurb": "EU/EEA still pays nothing. Non-EU English master’s typically €10,000–€15,000, with scholarships common.",
+    "photo": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€250–€450 / month",
+    "cities": {
+      "helsinki": {
+        "name": "Helsinki",
+        "apartment1br": "€1,096 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "espoo": {
+        "name": "Espoo",
+        "apartment1br": "€1,100 / month",
+        "apartmentNote": "Helsinki metro; Otaniemi campus.",
+        "photo": "https://images.unsplash.com/photo-1511818966892-d7d671e672a0?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "tampere": {
+        "name": "Tampere",
+        "apartment1br": "€850 / month",
+        "apartmentNote": "Below Helsinki.",
+        "photo": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "turku": {
+        "name": "Turku",
+        "apartment1br": "€800 / month",
+        "apartmentNote": "Coastal student city.",
+        "photo": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "oulu": {
+        "name": "Oulu",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "Northern tech city.",
+        "photo": "https://images.unsplash.com/photo-1483347756191-4cd5d0e2f5b8?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "jyvaskyla": {
+        "name": "Jyväskylä",
+        "apartment1br": "€750 / month",
+        "apartmentNote": "Below Helsinki.",
+        "photo": "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "lappeenranta": {
+        "name": "Lappeenranta",
+        "apartment1br": "€650 / month",
+        "apartmentNote": "Campus town; halls are common.",
+        "photo": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      }
+    }
+  },
+  "SE": {
+    "name": "Sweden",
+    "region": "Europe",
+    "blurb": "EU/EEA free; non-EU pays in kronor. English master’s are plentiful; English bachelor’s are thinner.",
+    "photo": "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?auto=format&fit=crop&w=1400&q=80",
+    "halls": "SEK 4,600–7,500 / month",
+    "cities": {
+      "lund": {
+        "name": "Lund",
+        "apartment1br": "SEK 8,500 / month",
+        "apartmentNote": "Student-town 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?auto=format&fit=crop&w=1400&q=80",
+        "halls": "SEK 4,600–7,500 / month"
+      },
+      "stockholm": {
+        "name": "Stockholm",
+        "apartment1br": "SEK 17,900 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?auto=format&fit=crop&w=1400&q=80",
+        "halls": "SEK 4,600–7,500 / month"
+      },
+      "uppsala": {
+        "name": "Uppsala",
+        "apartment1br": "SEK 9,000 / month",
+        "apartmentNote": "Student-city 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "SEK 4,600–7,500 / month"
+      },
+      "gothenburg": {
+        "name": "Gothenburg",
+        "apartment1br": "SEK 10,000 / month",
+        "apartmentNote": "Below Stockholm.",
+        "photo": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+        "halls": "SEK 4,600–7,500 / month"
+      },
+      "linkoping": {
+        "name": "Linköping",
+        "apartment1br": "SEK 8,000 / month",
+        "apartmentNote": "Below Stockholm.",
+        "photo": "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?auto=format&fit=crop&w=1400&q=80",
+        "halls": "SEK 4,600–7,500 / month"
+      },
+      "malmo": {
+        "name": "Malmö",
+        "apartment1br": "SEK 9,500 / month",
+        "apartmentNote": "Below Stockholm; Øresund commuting is common.",
+        "photo": "https://images.unsplash.com/photo-1509356843151-3e7d96241e11?auto=format&fit=crop&w=1400&q=80",
+        "halls": "SEK 4,600–7,500 / month"
+      },
+      "umea": {
+        "name": "Umeå",
+        "apartment1br": "SEK 8,000 / month",
+        "apartmentNote": "Northern university city.",
+        "photo": "https://images.unsplash.com/photo-1483347756191-4cd5d0e2f5b8?auto=format&fit=crop&w=1400&q=80",
+        "halls": "SEK 4,600–7,500 / month"
+      },
+      "orebro": {
+        "name": "Örebro",
+        "apartment1br": "SEK 8,200 / month",
+        "apartmentNote": "Below Stockholm.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "SEK 4,600–7,500 / month"
+      }
+    }
+  },
+  "HU": {
+    "name": "Hungary",
+    "region": "Europe",
+    "blurb": "English medicine and business at fees well below Western Europe. Budapest living costs are the regional bargain.",
+    "photo": "https://images.unsplash.com/photo-1551867633-194f28654fdb?auto=format&fit=crop&w=1400&q=80",
+    "halls": "HUF 50,000–90,000 / month",
+    "cities": {
+      "budapest": {
+        "name": "Budapest",
+        "apartment1br": "HUF 313,000 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1551867633-194f28654fdb?auto=format&fit=crop&w=1400&q=80",
+        "halls": "HUF 50,000–90,000 / month"
+      },
+      "szeged": {
+        "name": "Szeged",
+        "apartment1br": "HUF 150,000 / month",
+        "apartmentNote": "University-town 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?auto=format&fit=crop&w=1400&q=80",
+        "halls": "HUF 50,000–90,000 / month"
+      },
+      "debrecen": {
+        "name": "Debrecen",
+        "apartment1br": "HUF 160,000 / month",
+        "apartmentNote": "Below Budapest.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "HUF 50,000–90,000 / month"
+      },
+      "pecs": {
+        "name": "Pecs",
+        "apartment1br": "HUF 150,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Pecs/1400/900",
+        "halls": "HUF 50,000–90,000 / month"
+      }
+    }
+  },
+  "IN": {
+    "name": "India",
+    "region": "Asia",
+    "blurb": "Presence listing — Ashoka and IIT Delhi. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1524492412937-b28074a5d7c5?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "new-delhi": {
+        "name": "New Delhi",
+        "apartment1br": "INR 35,000 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1524492412937-b28074a5d7c5?auto=format&fit=crop&w=1400&q=80",
+        "halls": "INR 8,000–20,000 / month"
+      },
+      "mumbai": {
+        "name": "Mumbai",
+        "apartment1br": "INR 50,600 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1529253355930-ddbe923a94c0?auto=format&fit=crop&w=1400&q=80",
+        "halls": "INR 8,000–20,000 / month"
+      },
+      "bengaluru": {
+        "name": "Bengaluru",
+        "apartment1br": "INR 30,000 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?auto=format&fit=crop&w=1400&q=80"
+      },
+      "sonipat": {
+        "name": "Sonipat",
+        "apartment1br": "INR 18,000 / month",
+        "apartmentNote": "NCR campus town; many students live on site.",
+        "photo": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1400&q=80",
+        "halls": "INR 8,000–20,000 / month"
+      },
+      "chennai": {
+        "name": "Chennai",
+        "apartment1br": "INR 25,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Chennai/1400/900"
+      },
+      "hyderabad": {
+        "name": "Hyderabad",
+        "apartment1br": "INR 22,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Hyderabad/1400/900"
+      },
+      "kolkata": {
+        "name": "Kolkata",
+        "apartment1br": "INR 22,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Kolkata/1400/900"
+      },
+      "pune": {
+        "name": "Pune",
+        "apartment1br": "INR 24,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Pune/1400/900"
+      },
+      "kanpur": {
+        "name": "Kanpur",
+        "apartment1br": "INR 15,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Kanpur/1400/900"
+      },
+      "kharagpur": {
+        "name": "Kharagpur",
+        "apartment1br": "INR 12,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Kharagpur/1400/900"
+      },
+      "roorkee": {
+        "name": "Roorkee",
+        "apartment1br": "INR 14,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Roorkee/1400/900"
+      },
+      "guwahati": {
+        "name": "Guwahati",
+        "apartment1br": "INR 16,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Guwahati/1400/900"
+      },
+      "pilani": {
+        "name": "Pilani",
+        "apartment1br": "INR 12,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Pilani/1400/900"
+      },
+      "manipal": {
+        "name": "Manipal",
+        "apartment1br": "INR 18,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Manipal/1400/900"
+      },
+      "vellore": {
+        "name": "Vellore",
+        "apartment1br": "INR 16,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Vellore/1400/900"
+      }
+    }
+  },
+  "HK": {
+    "name": "Hong Kong",
+    "region": "Asia",
+    "blurb": "English-medium public universities. 2026–27 non-local tuition is HKD 224,000–260,000 at the flagships; halls are far cheaper than a city 1-bed. Safety score is high.",
+    "photo": "https://images.unsplash.com/photo-1536599018102-9f803c140fc1?auto=format&fit=crop&w=1400&q=80",
+    "halls": "HKD 1,700–4,250 / month",
+    "cities": {
+      "hong-kong": {
+        "name": "Hong Kong",
+        "apartment1br": "HKD 16,450 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026. Halls are the realistic student option.",
+        "photo": "https://images.unsplash.com/photo-1536599018102-9f803c140fc1?auto=format&fit=crop&w=1400&q=80",
+        "halls": "HKD 1,700–4,250 / month"
+      }
+    }
+  },
+  "ID": {
+    "name": "Indonesia",
+    "region": "Asia",
+    "blurb": "Presence listing — Universitas Indonesia and BINUS. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1555899434-94d5a336f507?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "depok": {
+        "name": "Depok",
+        "apartment1br": "IDR 5,500,000 / month",
+        "apartmentNote": "UI campus city south of Jakarta.",
+        "photo": "https://images.unsplash.com/photo-1555899434-94d5a336f507?auto=format&fit=crop&w=1400&q=80",
+        "halls": "IDR 1,500,000–3,000,000 / month"
+      },
+      "bandung": {
+        "name": "Bandung",
+        "apartment1br": "IDR 5,000,000 / month",
+        "apartmentNote": "Student-city 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=1400&q=80",
+        "halls": "IDR 1,500,000–3,000,000 / month"
+      },
+      "yogyakarta": {
+        "name": "Yogyakarta",
+        "apartment1br": "IDR 4,000,000 / month",
+        "apartmentNote": "Student-city 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1555899434-94d5a336f507?auto=format&fit=crop&w=1400&q=80",
+        "halls": "IDR 1,500,000–3,000,000 / month"
+      },
+      "jakarta": {
+        "name": "Jakarta",
+        "apartment1br": "IDR 5,700,000 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1555899434-94d5a336f507?auto=format&fit=crop&w=1400&q=80",
+        "halls": "IDR 1,500,000–3,000,000 / month"
+      }
+    }
+  },
+  "PH": {
+    "name": "Philippines",
+    "region": "Asia",
+    "blurb": "Presence listing — Ateneo and UP Diliman. English is the classroom language. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc31?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "quezon-city": {
+        "name": "Quezon City",
+        "apartment1br": "PHP 22,000 / month",
+        "apartmentNote": "University belt / Diliman area.",
+        "photo": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc31?auto=format&fit=crop&w=1400&q=80",
+        "halls": "PHP 4,000–8,000 / month"
+      },
+      "manila": {
+        "name": "Manila",
+        "apartment1br": "PHP 29,000 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc31?auto=format&fit=crop&w=1400&q=80",
+        "halls": "PHP 4,000–8,000 / month"
+      }
+    }
+  },
+  "TR": {
+    "name": "Turkey",
+    "region": "Europe",
+    "blurb": "English-medium private campuses (Koç, Sabancı, Bilkent) at US-like list prices with heavy aid; public Boğaziçi and METU are a different bargain.",
+    "photo": "https://images.unsplash.com/photo-1524231757912-21f4fe64c1a8?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "istanbul": {
+        "name": "Istanbul",
+        "apartment1br": "TRY 32,000 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1524231757912-21f4fe64c1a8?auto=format&fit=crop&w=1400&q=80",
+        "halls": "TRY 6,000–12,000 / month"
+      },
+      "ankara": {
+        "name": "Ankara",
+        "apartment1br": "TRY 18,000 / month",
+        "apartmentNote": "Below Istanbul.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "TRY 6,000–12,000 / month"
+      },
+      "izmir": {
+        "name": "Izmir",
+        "apartment1br": "TRY 25,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Izmir/1400/900"
+      }
+    }
+  },
+  "EG": {
+    "name": "Egypt",
+    "region": "Africa",
+    "blurb": "Presence listing — American University in Cairo. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1539768942893-daf53e313e80?auto=format&fit=crop&w=1400&q=80",
+    "halls": "",
+    "cities": {
+      "cairo": {
+        "name": "Cairo",
+        "apartment1br": "EGP 10,100 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1539768942893-daf53e313e80?auto=format&fit=crop&w=1400&q=80",
+        "halls": "EGP 3,000–6,000 / month"
+      },
+      "alexandria": {
+        "name": "Alexandria",
+        "apartment1br": "EGP 10,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Alexandria/1400/900"
+      }
+    }
+  },
+  "NZ": {
+    "name": "New Zealand",
+    "region": "Oceania",
+    "blurb": "English throughout. International fees resemble Australia more than Europe; Dunedin and Palmerston North undercut Auckland rents.",
+    "photo": "https://images.unsplash.com/photo-1507699628274-b2560c3d7435?auto=format&fit=crop&w=1400&q=80",
+    "halls": "NZD 800–1,400 / month",
+    "cities": {
+      "auckland": {
+        "name": "Auckland",
+        "apartment1br": "NZD 2,160 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1507699628274-b2560c3d7435?auto=format&fit=crop&w=1400&q=80",
+        "halls": "NZD 800–1,400 / month"
+      },
+      "dunedin": {
+        "name": "Dunedin",
+        "apartment1br": "NZD 1,400 / month",
+        "apartmentNote": "Student-city 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1400&q=80",
+        "halls": "NZD 800–1,400 / month"
+      },
+      "wellington": {
+        "name": "Wellington",
+        "apartment1br": "NZD 1,900 / month",
+        "apartmentNote": "Capital 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1507699628274-b2560c3d7435?auto=format&fit=crop&w=1400&q=80",
+        "halls": "NZD 800–1,400 / month"
+      },
+      "christchurch": {
+        "name": "Christchurch",
+        "apartment1br": "NZD 1,600 / month",
+        "apartmentNote": "Below Auckland.",
+        "photo": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+        "halls": "NZD 800–1,400 / month"
+      },
+      "palmerston-north": {
+        "name": "Palmerston North",
+        "apartment1br": "NZD 1,200 / month",
+        "apartmentNote": "Campus-town 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80",
+        "halls": "NZD 800–1,400 / month"
+      },
+      "hamilton-nz": {
+        "name": "Hamilton NZ",
+        "apartment1br": "NZD 1,400 / month",
+        "apartmentNote": "Below Auckland.",
+        "photo": "https://images.unsplash.com/photo-1507699628274-b2560c3d7435?auto=format&fit=crop&w=1400&q=80",
+        "halls": "NZD 800–1,400 / month"
+      },
+      "lincoln": {
+        "name": "Lincoln",
+        "apartment1br": "NZD 1,300 / month",
+        "apartmentNote": "Campus town near Christchurch.",
+        "photo": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+        "halls": "NZD 800–1,400 / month"
+      }
+    }
+  },
+  "AU": {
+    "name": "Australia",
+    "region": "Oceania",
+    "blurb": "Full listing. English throughout. International tuition often matches a US private; included so that cost gap is visible.",
+    "photo": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1400&q=80",
+    "halls": "AUD 1,200–2,000 / month",
+    "cities": {
+      "melbourne": {
+        "name": "Melbourne",
+        "apartment1br": "AUD 2,500 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026 contributors.",
+        "photo": "https://images.unsplash.com/photo-1514395462725-fb4566210144?auto=format&fit=crop&w=1400&q=80",
+        "halls": "AUD 1,200–2,000 / month"
+      },
+      "canberra": {
+        "name": "Canberra",
+        "apartment1br": "AUD 1,800 / month",
+        "apartmentNote": "Capital 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1400&q=80",
+        "halls": "AUD 1,200–2,000 / month"
+      },
+      "sydney": {
+        "name": "Sydney",
+        "apartment1br": "AUD 3,650 / month",
+        "apartmentNote": "Numbeo city-centre 1-bed, Aug 2026. Dearest Australian city here.",
+        "photo": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1400&q=80",
+        "halls": "AUD 1,200–2,000 / month"
+      },
+      "brisbane": {
+        "name": "Brisbane",
+        "apartment1br": "AUD 1,900 / month",
+        "apartmentNote": "Below Sydney and Melbourne.",
+        "photo": "https://images.unsplash.com/photo-1523482580671-c8e011ddd832?auto=format&fit=crop&w=1400&q=80",
+        "halls": "AUD 1,200–2,000 / month"
+      },
+      "perth": {
+        "name": "Perth",
+        "apartment1br": "AUD 1,700 / month",
+        "apartmentNote": "Below Sydney and Melbourne.",
+        "photo": "https://images.unsplash.com/photo-1523482580671-c8e011ddd832?auto=format&fit=crop&w=1400&q=80",
+        "halls": "AUD 1,200–2,000 / month"
+      },
+      "adelaide": {
+        "name": "Adelaide",
+        "apartment1br": "AUD 1,500 / month",
+        "apartmentNote": "Below the east-coast capitals.",
+        "photo": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1400&q=80",
+        "halls": "AUD 1,200–2,000 / month"
+      },
+      "wollongong": {
+        "name": "Wollongong",
+        "apartment1br": "AUD 1,600 / month",
+        "apartmentNote": "Below Sydney.",
+        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80",
+        "halls": "AUD 1,200–2,000 / month"
+      },
+      "gold-coast": {
+        "name": "Gold Coast",
+        "apartment1br": "AUD 1,800 / month",
+        "apartmentNote": "Below Sydney.",
+        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80",
+        "halls": "AUD 1,200–2,000 / month"
+      },
+      "newcastle-au": {
+        "name": "Newcastle AU",
+        "apartment1br": "AUD 1,600 / month",
+        "apartmentNote": "NSW coastal city; not Newcastle UK.",
+        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80",
+        "halls": "AUD 1,200–2,000 / month"
+      },
+      "hobart": {
+        "name": "Hobart",
+        "apartment1br": "AUD 1,500 / month",
+        "apartmentNote": "Below the mainland capitals.",
+        "photo": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=1400&q=80",
+        "halls": "AUD 1,200–2,000 / month"
+      },
+      "townsville": {
+        "name": "Townsville",
+        "apartment1br": "AUD 1,400 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Townsville/1400/900",
+        "halls": "AUD 1,200–2,000 / month"
+      },
+      "darwin": {
+        "name": "Darwin",
+        "apartment1br": "AUD 1,600 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Darwin/1400/900",
+        "halls": "AUD 1,200–2,000 / month"
+      },
+      "toowoomba": {
+        "name": "Toowoomba",
+        "apartment1br": "AUD 1,200 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Toowoomba/1400/900",
+        "halls": "AUD 1,200–2,000 / month"
+      }
+    }
+  },
+  "GB": {
+    "name": "United Kingdom",
+    "region": "Europe",
+    "blurb": "Full listing. English throughout. US students pay overseas fees (Home cap does not apply). London housing is the UK high.",
+    "photo": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1400&q=80",
+    "halls": "£150–£250 / week",
+    "cities": {
+      "oxford": {
+        "name": "Oxford",
+        "apartment1br": "£1,450 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1526129318478-62ed807ebdf9?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "cambridge": {
+        "name": "Cambridge",
+        "apartment1br": "£1,400 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1451934403379-ffeff84932c7?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "london": {
+        "name": "London",
+        "apartment1br": "£2,200 / month",
+        "apartmentNote": "Numbeo-style city-centre 1-bed sample. The UK high.",
+        "photo": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "edinburgh": {
+        "name": "Edinburgh",
+        "apartment1br": "£1,250 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "manchester": {
+        "name": "Manchester",
+        "apartment1br": "£1,100 / month",
+        "apartmentNote": "Below London.",
+        "photo": "https://images.unsplash.com/photo-1515586838455-8f8f940d6853?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "bristol": {
+        "name": "Bristol",
+        "apartment1br": "£1,200 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "coventry": {
+        "name": "Coventry",
+        "apartment1br": "£850 / month",
+        "apartmentNote": "Warwick campus town.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "glasgow": {
+        "name": "Glasgow",
+        "apartment1br": "£950 / month",
+        "apartmentNote": "Below Edinburgh.",
+        "photo": "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "birmingham": {
+        "name": "Birmingham",
+        "apartment1br": "£950 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "leeds": {
+        "name": "Leeds",
+        "apartment1br": "£900 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "nottingham": {
+        "name": "Nottingham",
+        "apartment1br": "£850 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "durham": {
+        "name": "Durham",
+        "apartment1br": "£800 / month",
+        "apartmentNote": "Collegiate town; many students live in college.",
+        "photo": "https://images.unsplash.com/photo-1526129318478-62ed807ebdf9?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "st-andrews": {
+        "name": "St Andrews",
+        "apartment1br": "£900 / month",
+        "apartmentNote": "Small university town.",
+        "photo": "https://images.unsplash.com/photo-1507699628274-b2560c3d7435?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "bath": {
+        "name": "Bath",
+        "apartment1br": "£1,150 / month",
+        "apartmentNote": "Compact city; demand is high.",
+        "photo": "https://images.unsplash.com/photo-1526129318478-62ed807ebdf9?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "exeter": {
+        "name": "Exeter",
+        "apartment1br": "£950 / month",
+        "apartmentNote": "Below Bristol.",
+        "photo": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "cardiff": {
+        "name": "Cardiff",
+        "apartment1br": "£950 / month",
+        "apartmentNote": "Below London; comparable to other UK regional capitals.",
+        "photo": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "sheffield": {
+        "name": "Sheffield",
+        "apartment1br": "£850 / month",
+        "apartmentNote": "Below Manchester; comparable to Leeds.",
+        "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "southampton": {
+        "name": "Southampton",
+        "apartment1br": "£1,050 / month",
+        "apartmentNote": "Below London; comparable to Bristol.",
+        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "newcastle": {
+        "name": "Newcastle",
+        "apartment1br": "£850 / month",
+        "apartmentNote": "Below London and Edinburgh; not Newcastle AU.",
+        "photo": "https://images.unsplash.com/photo-1515542622106-78bda8ba0e5b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "£150–£250 / week"
+      },
+      "liverpool": {
+        "name": "Liverpool",
+        "apartment1br": "£850 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Liverpool/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "york": {
+        "name": "York",
+        "apartment1br": "£900 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-York/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "belfast": {
+        "name": "Belfast",
+        "apartment1br": "£750 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Belfast/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "aberdeen": {
+        "name": "Aberdeen",
+        "apartment1br": "£700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Aberdeen/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "leicester": {
+        "name": "Leicester",
+        "apartment1br": "£750 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Leicester/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "reading": {
+        "name": "Reading",
+        "apartment1br": "£900 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Reading/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "brighton": {
+        "name": "Brighton",
+        "apartment1br": "£1,100 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Brighton/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "norwich": {
+        "name": "Norwich",
+        "apartment1br": "£850 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Norwich/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "dundee": {
+        "name": "Dundee",
+        "apartment1br": "£700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Dundee/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "swansea": {
+        "name": "Swansea",
+        "apartment1br": "£750 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Swansea/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "guildford": {
+        "name": "Guildford",
+        "apartment1br": "£1,100 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Guildford/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "plymouth": {
+        "name": "Plymouth",
+        "apartment1br": "£800 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Plymouth/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "loughborough": {
+        "name": "Loughborough",
+        "apartment1br": "£800 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Loughborough/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "stirling": {
+        "name": "Stirling",
+        "apartment1br": "£750 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Stirling/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "colchester": {
+        "name": "Colchester",
+        "apartment1br": "£850 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Colchester/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "canterbury": {
+        "name": "Canterbury",
+        "apartment1br": "£950 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Canterbury/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "hull": {
+        "name": "Hull",
+        "apartment1br": "£650 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Hull/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "portsmouth": {
+        "name": "Portsmouth",
+        "apartment1br": "£850 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Portsmouth/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "bangor": {
+        "name": "Bangor",
+        "apartment1br": "£650 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Bangor/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "aberystwyth": {
+        "name": "Aberystwyth",
+        "apartment1br": "£650 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Aberystwyth/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "preston": {
+        "name": "Preston",
+        "apartment1br": "£700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Preston/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "lancaster": {
+        "name": "Lancaster",
+        "apartment1br": "£750 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Lancaster/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "bradford": {
+        "name": "Bradford",
+        "apartment1br": "£650 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Bradford/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "huddersfield": {
+        "name": "Huddersfield",
+        "apartment1br": "£650 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Huddersfield/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "middlesbrough": {
+        "name": "Middlesbrough",
+        "apartment1br": "£600 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Middlesbrough/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "sunderland": {
+        "name": "Sunderland",
+        "apartment1br": "£600 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Sunderland/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "keele": {
+        "name": "Keele",
+        "apartment1br": "£700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Keele/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "lincoln-uk": {
+        "name": "Lincoln UK",
+        "apartment1br": "£700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Lincoln UK/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "hatfield": {
+        "name": "Hatfield",
+        "apartment1br": "£950 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Hatfield/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "egham": {
+        "name": "Egham",
+        "apartment1br": "£1,200 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Egham/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "derby": {
+        "name": "Derby",
+        "apartment1br": "£700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Derby/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "northampton": {
+        "name": "Northampton",
+        "apartment1br": "£750 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Northampton/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "wolverhampton": {
+        "name": "Wolverhampton",
+        "apartment1br": "£650 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Wolverhampton/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "stoke-on-trent": {
+        "name": "Stoke-on-Trent",
+        "apartment1br": "£600 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Stoke-on-Trent/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "chester": {
+        "name": "Chester",
+        "apartment1br": "£750 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Chester/1400/900",
+        "halls": "£150–£250 / week"
+      },
+      "paisley": {
+        "name": "Paisley",
+        "apartment1br": "£700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Paisley/1400/900",
+        "halls": "£150–£250 / week"
+      }
+    }
+  },
+  "CA": {
+    "name": "Canada",
+    "region": "North America",
+    "blurb": "Full listing. English throughout at these campuses (Ottawa also offers French). International tuition is billed in CAD and sits near a US out-of-state public.",
+    "photo": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=1400&q=80",
+    "halls": "CAD 800–1,400 / month",
+    "cities": {
+      "toronto": {
+        "name": "Toronto",
+        "apartment1br": "CAD 2,400 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1517935706615-2717063c2225?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "vancouver": {
+        "name": "Vancouver",
+        "apartment1br": "CAD 2,600 / month",
+        "apartmentNote": "Among Canada’s dearest 1-beds.",
+        "photo": "https://images.unsplash.com/photo-1559511260-66a654ae982a?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "montreal": {
+        "name": "Montreal",
+        "apartment1br": "CAD 1,600 / month",
+        "apartmentNote": "Below Toronto and Vancouver.",
+        "photo": "https://images.unsplash.com/photo-1519178614-68673b201f36?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "waterloo": {
+        "name": "Waterloo",
+        "apartment1br": "CAD 1,500 / month",
+        "apartmentNote": "Student-city 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "london-ontario": {
+        "name": "London Ontario",
+        "apartment1br": "CAD 1,450 / month",
+        "apartmentNote": "Ontario city; not London UK.",
+        "photo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "kingston": {
+        "name": "Kingston",
+        "apartment1br": "CAD 1,400 / month",
+        "apartmentNote": "Campus-town 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "edmonton": {
+        "name": "Edmonton",
+        "apartment1br": "CAD 1,300 / month",
+        "apartmentNote": "Below Vancouver.",
+        "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "ottawa": {
+        "name": "Ottawa",
+        "apartment1br": "CAD 1,800 / month",
+        "apartmentNote": "Capital 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "calgary": {
+        "name": "Calgary",
+        "apartment1br": "CAD 1,600 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "burnaby": {
+        "name": "Burnaby",
+        "apartment1br": "CAD 2,100 / month",
+        "apartmentNote": "Metro Vancouver.",
+        "photo": "https://images.unsplash.com/photo-1559511260-66a654ae982a?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "victoria": {
+        "name": "Victoria",
+        "apartment1br": "CAD 1,900 / month",
+        "apartmentNote": "Island capital.",
+        "photo": "https://images.unsplash.com/photo-1507699628274-b2560c3d7435?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "halifax": {
+        "name": "Halifax",
+        "apartment1br": "CAD 1,500 / month",
+        "apartmentNote": "Atlantic 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "hamilton": {
+        "name": "Hamilton",
+        "apartment1br": "CAD 1,700 / month",
+        "apartmentNote": "Below Toronto.",
+        "photo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "winnipeg": {
+        "name": "Winnipeg",
+        "apartment1br": "CAD 1,350 / month",
+        "apartmentNote": "Below Toronto and Vancouver.",
+        "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "guelph": {
+        "name": "Guelph",
+        "apartment1br": "CAD 1,650 / month",
+        "apartmentNote": "Below Toronto; comparable to Hamilton.",
+        "photo": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "st-john-s": {
+        "name": "St. John's",
+        "apartment1br": "CAD 1,350 / month",
+        "apartmentNote": "Below Halifax and Toronto. Newfoundland capital.",
+        "photo": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "quebec-city": {
+        "name": "Quebec City",
+        "apartment1br": "CAD 1,200 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Quebec City/1400/900",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "saskatoon": {
+        "name": "Saskatoon",
+        "apartment1br": "CAD 1,300 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Saskatoon/1400/900",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "fredericton": {
+        "name": "Fredericton",
+        "apartment1br": "CAD 1,100 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Fredericton/1400/900",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "windsor": {
+        "name": "Windsor",
+        "apartment1br": "CAD 1,200 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Windsor/1400/900",
+        "halls": "CAD 800–1,400 / month"
+      },
+      "sherbrooke": {
+        "name": "Sherbrooke",
+        "apartment1br": "CAD 1,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Sherbrooke/1400/900",
+        "halls": "CAD 800–1,400 / month"
+      }
+    }
+  },
+  "RU": {
+    "name": "Russia",
+    "region": "Europe",
+    "blurb": "Full listing of English-taught degrees. US students need a student visa; confirm current entry rules before you apply. Moscow and Saint Petersburg housing is the Russian high.",
+    "photo": "https://images.unsplash.com/photo-1513326738677-b964603b136d?auto=format&fit=crop&w=1400&q=80",
+    "halls": "RUB 8,000–20,000 / month",
+    "cities": {
+      "moscow": {
+        "name": "Moscow",
+        "apartment1br": "RUB 90,000 / month",
+        "apartmentNote": "City-centre 1-bed sample. The Russian high.",
+        "photo": "https://images.unsplash.com/photo-1513326738677-b964603b136d?auto=format&fit=crop&w=1400&q=80",
+        "halls": "RUB 8,000–20,000 / month"
+      },
+      "saint-petersburg": {
+        "name": "Saint Petersburg",
+        "apartment1br": "RUB 60,000 / month",
+        "apartmentNote": "Below Moscow.",
+        "photo": "https://images.unsplash.com/photo-1556610961-2fecc5927173?auto=format&fit=crop&w=1400&q=80",
+        "halls": "RUB 8,000–20,000 / month"
+      },
+      "dolgoprudny": {
+        "name": "Dolgoprudny",
+        "apartment1br": "RUB 45,000 / month",
+        "apartmentNote": "MIPT campus town north of Moscow.",
+        "photo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+        "halls": "RUB 8,000–20,000 / month"
+      },
+      "innopolis": {
+        "name": "Innopolis",
+        "apartment1br": "RUB 25,000 / month",
+        "apartmentNote": "Purpose-built campus city; halls are the usual option.",
+        "photo": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1400&q=80",
+        "halls": "RUB 8,000–20,000 / month"
+      },
+      "tomsk": {
+        "name": "Tomsk",
+        "apartment1br": "RUB 28,000 / month",
+        "apartmentNote": "Siberian university city.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "RUB 8,000–20,000 / month"
+      },
+      "novosibirsk": {
+        "name": "Novosibirsk",
+        "apartment1br": "RUB 32,000 / month",
+        "apartmentNote": "Below Moscow.",
+        "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1400&q=80",
+        "halls": "RUB 8,000–20,000 / month"
+      },
+      "kazan": {
+        "name": "Kazan",
+        "apartment1br": "RUB 35,000 / month",
+        "apartmentNote": "Below Moscow.",
+        "photo": "https://images.unsplash.com/photo-1555881403-169cc2f519bb?auto=format&fit=crop&w=1400&q=80",
+        "halls": "RUB 8,000–20,000 / month"
+      },
+      "ekaterinburg": {
+        "name": "Ekaterinburg",
+        "apartment1br": "RUB 35,000 / month",
+        "apartmentNote": "Below Moscow.",
+        "photo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+        "halls": "RUB 8,000–20,000 / month"
+      },
+      "vladivostok": {
+        "name": "Vladivostok",
+        "apartment1br": "RUB 40,000 / month",
+        "apartmentNote": "Pacific campus city.",
+        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80",
+        "halls": "RUB 8,000–20,000 / month"
+      }
+    }
+  },
+  "BY": {
+    "name": "Belarus",
+    "region": "Europe",
+    "blurb": "Full listing. English is strongest in medicine and IT. Fees are often billed in US dollars. A student visa is required; confirm current entry rules.",
+    "photo": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$80–$150 / month",
+    "cities": {
+      "minsk": {
+        "name": "Minsk",
+        "apartment1br": "$450 / month",
+        "apartmentNote": "City-centre 1-bed sample, often quoted in USD.",
+        "photo": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$80–$150 / month"
+      },
+      "grodno": {
+        "name": "Grodno",
+        "apartment1br": "$280 / month",
+        "apartmentNote": "Below Minsk.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$80–$150 / month"
+      },
+      "vitebsk": {
+        "name": "Vitebsk",
+        "apartment1br": "$250 / month",
+        "apartmentNote": "Below Minsk.",
+        "photo": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$80–$150 / month"
+      },
+      "gomel": {
+        "name": "Gomel",
+        "apartment1br": "$240 / month",
+        "apartmentNote": "Below Minsk.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$80–$150 / month"
+      },
+      "brest": {
+        "name": "Brest",
+        "apartment1br": "$260 / month",
+        "apartmentNote": "Border city.",
+        "photo": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$80–$150 / month"
+      },
+      "polotsk": {
+        "name": "Polotsk",
+        "apartment1br": "$200 / month",
+        "apartmentNote": "Campus town.",
+        "photo": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$80–$150 / month"
+      },
+      "mogilev": {
+        "name": "Mogilev",
+        "apartment1br": "$230 / month",
+        "apartmentNote": "Below Minsk.",
+        "photo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$80–$150 / month"
+      }
+    }
+  },
+  "CN": {
+    "name": "China",
+    "region": "Asia",
+    "blurb": "Solid listing of English-medium joint campuses and English master’s at the flagships — not a complete national directory. NYU Shanghai, DKU, XJTLU, UNNC, CUHK-Shenzhen, Wenzhou-Kean, and BNBU (UIC Zhuhai) teach bachelor’s in English; Tsinghua, Peking, Fudan, Zhejiang, and SJTU are listed mainly for English graduate degrees.",
+    "photo": "https://images.unsplash.com/photo-1548919973-5b8a7d454f2a?auto=format&fit=crop&w=1400&q=80",
+    "halls": "CNY 2,000–5,000 / month",
+    "cities": {
+      "shanghai": {
+        "name": "Shanghai",
+        "apartment1br": "CNY 8,500 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1548919973-5b8a7d454f2a?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "kunshan": {
+        "name": "Kunshan",
+        "apartment1br": "CNY 4,500 / month",
+        "apartmentNote": "Below Shanghai; campus housing is common.",
+        "photo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "beijing": {
+        "name": "Beijing",
+        "apartment1br": "CNY 7,500 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1508804185872-d7badb00b47d?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "suzhou": {
+        "name": "Suzhou",
+        "apartment1br": "CNY 4,500 / month",
+        "apartmentNote": "Below Shanghai; campus housing is common at XJTLU.",
+        "photo": "https://images.unsplash.com/photo-1548919973-5b8a7d454f2a?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "ningbo": {
+        "name": "Ningbo",
+        "apartment1br": "CNY 4,000 / month",
+        "apartmentNote": "Below Shanghai.",
+        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "hangzhou": {
+        "name": "Hangzhou",
+        "apartment1br": "CNY 5,500 / month",
+        "apartmentNote": "Below Shanghai; West Lake demand lifts some neighbourhoods.",
+        "photo": "https://images.unsplash.com/photo-1548919973-5b8a7d454f2a?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "shenzhen": {
+        "name": "Shenzhen",
+        "apartment1br": "CNY 6,500 / month",
+        "apartmentNote": "Below central Shanghai; tech-city demand is tight.",
+        "photo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "wenzhou": {
+        "name": "Wenzhou",
+        "apartment1br": "CNY 3,800 / month",
+        "apartmentNote": "Below Hangzhou and Shanghai.",
+        "photo": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "zhuhai": {
+        "name": "Zhuhai",
+        "apartment1br": "CNY 4,200 / month",
+        "apartmentNote": "Below Shenzhen; Greater Bay campus city.",
+        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "nanjing": {
+        "name": "Nanjing",
+        "apartment1br": "CNY 4,500 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Nanjing/1400/900",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "wuhan": {
+        "name": "Wuhan",
+        "apartment1br": "CNY 4,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Wuhan/1400/900",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "xi-an": {
+        "name": "Xi'an",
+        "apartment1br": "CNY 3,800 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Xi'an/1400/900",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "chengdu": {
+        "name": "Chengdu",
+        "apartment1br": "CNY 4,200 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Chengdu/1400/900",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "harbin": {
+        "name": "Harbin",
+        "apartment1br": "CNY 3,200 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Harbin/1400/900",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "hefei": {
+        "name": "Hefei",
+        "apartment1br": "CNY 3,500 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Hefei/1400/900",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "xiamen": {
+        "name": "Xiamen",
+        "apartment1br": "CNY 4,500 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Xiamen/1400/900",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "guangzhou": {
+        "name": "Guangzhou",
+        "apartment1br": "CNY 5,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Guangzhou/1400/900",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "tianjin": {
+        "name": "Tianjin",
+        "apartment1br": "CNY 4,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Tianjin/1400/900",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "changchun": {
+        "name": "Changchun",
+        "apartment1br": "CNY 3,200 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Changchun/1400/900",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "dalian": {
+        "name": "Dalian",
+        "apartment1br": "CNY 3,800 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Dalian/1400/900",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "qingdao": {
+        "name": "Qingdao",
+        "apartment1br": "CNY 4,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Qingdao/1400/900",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "jinan": {
+        "name": "Jinan",
+        "apartment1br": "CNY 3,500 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Jinan/1400/900",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "changsha": {
+        "name": "Changsha",
+        "apartment1br": "CNY 3,500 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Changsha/1400/900",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "chongqing": {
+        "name": "Chongqing",
+        "apartment1br": "CNY 3,800 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Chongqing/1400/900",
+        "halls": "CNY 2,000–5,000 / month"
+      },
+      "lanzhou": {
+        "name": "Lanzhou",
+        "apartment1br": "CNY 2,800 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Lanzhou/1400/900",
+        "halls": "CNY 2,000–5,000 / month"
+      }
+    }
+  },
+  "VN": {
+    "name": "Vietnam",
+    "region": "Asia",
+    "blurb": "Presence listing — VinUniversity and RMIT Vietnam. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1526139338264-abaed4cfbe8a?auto=format&fit=crop&w=1400&q=80",
+    "halls": "VND 4,000,000–8,000,000 / month",
+    "cities": {
+      "hanoi": {
+        "name": "Hanoi",
+        "apartment1br": "VND 12,000,000 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1526139338264-abaed4cfbe8a?auto=format&fit=crop&w=1400&q=80",
+        "halls": "VND 4,000,000–8,000,000 / month"
+      },
+      "ho-chi-minh-city": {
+        "name": "Ho Chi Minh City",
+        "apartment1br": "VND 14,000,000 / month",
+        "apartmentNote": "Dearer than Hanoi.",
+        "photo": "https://images.unsplash.com/photo-1583417319070-4a69db38a482?auto=format&fit=crop&w=1400&q=80",
+        "halls": "VND 4,000,000–8,000,000 / month"
+      }
+    }
+  },
+  "GR": {
+    "name": "Greece",
+    "region": "Europe",
+    "blurb": "Presence listing — American College of Greece and International Hellenic University. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1555993539-1732b0258235?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€250–€450 / month",
+    "cities": {
+      "athens": {
+        "name": "Athens",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "City-centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1555993539-1732b0258235?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      },
+      "thessaloniki": {
+        "name": "Thessaloniki",
+        "apartment1br": "€550 / month",
+        "apartmentNote": "Below Athens.",
+        "photo": "https://images.unsplash.com/photo-1555993539-1732b0258235?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€250–€450 / month"
+      }
+    }
+  },
+  "IL": {
+    "name": "Israel",
+    "region": "Middle East",
+    "blurb": "Presence listing — Tel Aviv University and Hebrew University. Not a complete national directory. Confirm current campus and visa notices.",
+    "photo": "https://images.unsplash.com/photo-1504624721107-4cf2c4001814?auto=format&fit=crop&w=1400&q=80",
+    "halls": "ILS 2,000–4,000 / month",
+    "cities": {
+      "tel-aviv": {
+        "name": "Tel Aviv",
+        "apartment1br": "ILS 7,500 / month",
+        "apartmentNote": "Among the dearest 1-beds in this directory.",
+        "photo": "https://images.unsplash.com/photo-1504624721107-4cf2c4001814?auto=format&fit=crop&w=1400&q=80",
+        "halls": "ILS 2,000–4,000 / month"
+      },
+      "jerusalem": {
+        "name": "Jerusalem",
+        "apartment1br": "ILS 5,500 / month",
+        "apartmentNote": "Below Tel Aviv.",
+        "photo": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?auto=format&fit=crop&w=1400&q=80",
+        "halls": "ILS 2,000–4,000 / month"
+      },
+      "haifa": {
+        "name": "Haifa",
+        "apartment1br": "ILS 4,500 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Haifa/1400/900",
+        "halls": "ILS 2,000–4,000 / month"
+      },
+      "beer-sheva": {
+        "name": "Beer Sheva",
+        "apartment1br": "ILS 3,500 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Beer Sheva/1400/900",
+        "halls": "ILS 2,000–4,000 / month"
+      }
+    }
+  },
+  "RO": {
+    "name": "Romania",
+    "region": "Europe",
+    "blurb": "Presence listing — Babeș-Bolyai and Carol Davila. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1565008576549-57569a49371d?auto=format&fit=crop&w=1400&q=80",
+    "halls": "RON 800–1,500 / month",
+    "cities": {
+      "cluj-napoca": {
+        "name": "Cluj-Napoca",
+        "apartment1br": "RON 2,400 / month",
+        "apartmentNote": "Student-city 1-bed.",
+        "photo": "https://images.unsplash.com/photo-1565008576549-57569a49371d?auto=format&fit=crop&w=1400&q=80",
+        "halls": "RON 800–1,500 / month"
+      },
+      "bucharest": {
+        "name": "Bucharest",
+        "apartment1br": "RON 2,800 / month",
+        "apartmentNote": "Capital 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1565008576549-57569a49371d?auto=format&fit=crop&w=1400&q=80",
+        "halls": "RON 800–1,500 / month"
+      }
+    }
+  },
+  "DK": {
+    "name": "Denmark",
+    "region": "Europe",
+    "blurb": "English is strongest at master’s level at the publics; CBS adds English bachelor’s. Non-EU students pay tuition; EU/EEA remains free. Copenhagen housing is the Danish high.",
+    "photo": "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?auto=format&fit=crop&w=1400&q=80",
+    "halls": "DKK 3,000–5,500 / month",
+    "cities": {
+      "copenhagen": {
+        "name": "Copenhagen",
+        "apartment1br": "DKK 12,500 / month",
+        "apartmentNote": "Numbeo-style city-centre 1-bed sample. The Danish high.",
+        "photo": "https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?auto=format&fit=crop&w=1400&q=80",
+        "halls": "DKK 3,000–5,500 / month"
+      },
+      "aarhus": {
+        "name": "Aarhus",
+        "apartment1br": "DKK 9,500 / month",
+        "apartmentNote": "Below Copenhagen.",
+        "photo": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+        "halls": "DKK 3,000–5,500 / month"
+      },
+      "odense": {
+        "name": "Odense",
+        "apartment1br": "DKK 7,500 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Odense/1400/900",
+        "halls": "DKK 3,000–5,500 / month"
+      },
+      "aalborg": {
+        "name": "Aalborg",
+        "apartment1br": "DKK 7,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Aalborg/1400/900",
+        "halls": "DKK 3,000–5,500 / month"
+      },
+      "roskilde": {
+        "name": "Roskilde",
+        "apartment1br": "DKK 7,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Roskilde/1400/900",
+        "halls": "DKK 3,000–5,500 / month"
+      }
+    }
+  },
+  "CH": {
+    "name": "Switzerland",
+    "region": "Europe",
+    "blurb": "English is the classroom language on most ETH/EPFL master’s. New foreign students at the federal institutes pay threefold tuition from autumn 2025. Cantonal universities stay cheaper.",
+    "photo": "https://images.unsplash.com/photo-1524350876685-277677218795?auto=format&fit=crop&w=1400&q=80",
+    "halls": "CHF 600–1,100 / month",
+    "cities": {
+      "zurich": {
+        "name": "Zurich",
+        "apartment1br": "CHF 2,100 / month",
+        "apartmentNote": "Among Europe’s dearest 1-beds.",
+        "photo": "https://images.unsplash.com/photo-1524350876685-277677218795?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CHF 600–1,100 / month"
+      },
+      "lausanne": {
+        "name": "Lausanne",
+        "apartment1br": "CHF 1,800 / month",
+        "apartmentNote": "Below Zurich; EPFL/UNIL demand is tight.",
+        "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CHF 600–1,100 / month"
+      },
+      "geneva": {
+        "name": "Geneva",
+        "apartment1br": "CHF 2,000 / month",
+        "apartmentNote": "International-city rents.",
+        "photo": "https://images.unsplash.com/photo-1524350876685-277677218795?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CHF 600–1,100 / month"
+      },
+      "st-gallen": {
+        "name": "St. Gallen",
+        "apartment1br": "CHF 1,500 / month",
+        "apartmentNote": "Below Zurich; many HSG students live in halls or shared flats.",
+        "photo": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CHF 600–1,100 / month"
+      },
+      "montreux": {
+        "name": "Montreux",
+        "apartment1br": "CHF 1,750 / month",
+        "apartmentNote": "Lake Geneva; similar band to Lausanne.",
+        "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1400&q=80",
+        "halls": "CHF 600–1,100 / month"
+      },
+      "basel": {
+        "name": "Basel",
+        "apartment1br": "CHF 1,700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Basel/1400/900",
+        "halls": "CHF 600–1,100 / month"
+      },
+      "bern": {
+        "name": "Bern",
+        "apartment1br": "CHF 1,600 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Bern/1400/900",
+        "halls": "CHF 600–1,100 / month"
+      },
+      "fribourg": {
+        "name": "Fribourg",
+        "apartment1br": "CHF 1,400 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Fribourg/1400/900",
+        "halls": "CHF 600–1,100 / month"
+      },
+      "lugano": {
+        "name": "Lugano",
+        "apartment1br": "CHF 1,600 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Lugano/1400/900",
+        "halls": "CHF 600–1,100 / month"
+      }
+    }
+  },
+  "EE": {
+    "name": "Estonia",
+    "region": "Europe",
+    "blurb": "Presence listing — University of Tartu English bachelor’s and master’s. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€200–€400 / month",
+    "cities": {
+      "tartu": {
+        "name": "Tartu",
+        "apartment1br": "€450 / month",
+        "apartmentNote": "Student city; cheaper than Tallinn.",
+        "photo": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€200–€400 / month"
+      },
+      "tallinn": {
+        "name": "Tallinn",
+        "apartment1br": "€700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Tallinn/1400/900",
+        "halls": "€200–€400 / month"
+      }
+    }
+  },
+  "LV": {
+    "name": "Latvia",
+    "region": "Europe",
+    "blurb": "Presence listing — University of Latvia English degrees. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae6f5?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€150–€350 / month",
+    "cities": {
+      "riga": {
+        "name": "Riga",
+        "apartment1br": "€450 / month",
+        "apartmentNote": "Centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€150–€350 / month"
+      }
+    }
+  },
+  "LT": {
+    "name": "Lithuania",
+    "region": "Europe",
+    "blurb": "Presence listing — Vilnius University English degrees. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1469854523086-614bee13bb23?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€150–€350 / month",
+    "cities": {
+      "vilnius": {
+        "name": "Vilnius",
+        "apartment1br": "€500 / month",
+        "apartmentNote": "Old Town is dearer than the student districts.",
+        "photo": "https://images.unsplash.com/photo-1448630360425-66936d370308?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€150–€350 / month"
+      },
+      "kaunas": {
+        "name": "Kaunas",
+        "apartment1br": "€500 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Kaunas/1400/900",
+        "halls": "€150–€350 / month"
+      }
+    }
+  },
+  "SK": {
+    "name": "Slovakia",
+    "region": "Europe",
+    "blurb": "Presence listing — Comenius University English tracks. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€150–€300 / month",
+    "cities": {
+      "bratislava": {
+        "name": "Bratislava",
+        "apartment1br": "€600 / month",
+        "apartmentNote": "Capital rents sit above other Slovak cities.",
+        "photo": "https://images.unsplash.com/photo-1517486808906-6b8b99c0c2d5?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€150–€300 / month"
+      },
+      "kosice": {
+        "name": "Kosice",
+        "apartment1br": "€450 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Kosice/1400/900",
+        "halls": "€150–€300 / month"
+      },
+      "zilina": {
+        "name": "Zilina",
+        "apartment1br": "€400 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Zilina/1400/900",
+        "halls": "€150–€300 / month"
+      }
+    }
+  },
+  "SI": {
+    "name": "Slovenia",
+    "region": "Europe",
+    "blurb": "Presence listing — University of Ljubljana English master’s (and a few bachelor’s). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€150–€350 / month",
+    "cities": {
+      "ljubljana": {
+        "name": "Ljubljana",
+        "apartment1br": "€650 / month",
+        "apartmentNote": "Tight student market in the capital.",
+        "photo": "https://images.unsplash.com/photo-1432405971791-c73d4b6a47c7?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€150–€350 / month"
+      },
+      "maribor": {
+        "name": "Maribor",
+        "apartment1br": "€500 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Maribor/1400/900",
+        "halls": "€150–€350 / month"
+      },
+      "koper": {
+        "name": "Koper",
+        "apartment1br": "€550 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Koper/1400/900",
+        "halls": "€150–€350 / month"
+      }
+    }
+  },
+  "HR": {
+    "name": "Croatia",
+    "region": "Europe",
+    "blurb": "Presence listing — University of Zagreb English programs. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€150–€300 / month",
+    "cities": {
+      "zagreb": {
+        "name": "Zagreb",
+        "apartment1br": "€550 / month",
+        "apartmentNote": "Centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1470219556764-ab56dc3d0dea?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€150–€300 / month"
+      },
+      "split": {
+        "name": "Split",
+        "apartment1br": "€600 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Split/1400/900",
+        "halls": "€150–€300 / month"
+      },
+      "rijeka": {
+        "name": "Rijeka",
+        "apartment1br": "€550 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Rijeka/1400/900",
+        "halls": "€150–€300 / month"
+      }
+    }
+  },
+  "RS": {
+    "name": "Serbia",
+    "region": "Europe",
+    "blurb": "Presence listing — University of Belgrade English degrees. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€100–€250 / month",
+    "cities": {
+      "belgrade": {
+        "name": "Belgrade",
+        "apartment1br": "€400 / month",
+        "apartmentNote": "Often quoted in euros.",
+        "photo": "https://images.unsplash.com/photo-1551836022-deb46e6684a4?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€100–€250 / month"
+      },
+      "novi-sad": {
+        "name": "Novi Sad",
+        "apartment1br": "€400 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Novi Sad/1400/900",
+        "halls": "€100–€250 / month"
+      },
+      "nis": {
+        "name": "Nis",
+        "apartment1br": "€300 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Nis/1400/900",
+        "halls": "€100–€250 / month"
+      }
+    }
+  },
+  "BG": {
+    "name": "Bulgaria",
+    "region": "Europe",
+    "blurb": "Presence listing — AUBG (English throughout). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€150–€280 / month",
+    "cities": {
+      "blagoevgrad": {
+        "name": "Blagoevgrad",
+        "apartment1br": "€300 / month",
+        "apartmentNote": "Small city; many students live on campus.",
+        "photo": "https://images.unsplash.com/photo-1581092918056-0c4c3fe6c8e0?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€150–€280 / month"
+      },
+      "sofia": {
+        "name": "Sofia",
+        "apartment1br": "€450 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Sofia/1400/900",
+        "halls": "€150–€280 / month"
+      },
+      "plovdiv": {
+        "name": "Plovdiv",
+        "apartment1br": "€400 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Plovdiv/1400/900",
+        "halls": "€150–€280 / month"
+      }
+    }
+  },
+  "MT": {
+    "name": "Malta",
+    "region": "Europe",
+    "blurb": "Presence listing — University of Malta (English is the classroom language). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€400–€700 / month",
+    "cities": {
+      "msida": {
+        "name": "Msida",
+        "apartment1br": "€800 / month",
+        "apartmentNote": "Island-wide demand is tight near campus.",
+        "photo": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€400–€700 / month"
+      },
+      "paola": {
+        "name": "Paola",
+        "apartment1br": "€800 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Paola/1400/900",
+        "halls": "€400–€700 / month"
+      }
+    }
+  },
+  "IS": {
+    "name": "Iceland",
+    "region": "Europe",
+    "blurb": "Presence listing — University of Iceland English master’s (a few bachelor’s). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?auto=format&fit=crop&w=1400&q=80",
+    "halls": "ISK 80,000–140,000 / month",
+    "cities": {
+      "reykjavik": {
+        "name": "Reykjavik",
+        "apartment1br": "ISK 180,000 / month",
+        "apartmentNote": "Capital rents are the Icelandic high.",
+        "photo": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1400&q=80",
+        "halls": "ISK 80,000–140,000 / month"
+      },
+      "akureyri": {
+        "name": "Akureyri",
+        "apartment1br": "ISK 160,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Akureyri/1400/900",
+        "halls": "ISK 80,000–140,000 / month"
+      }
+    }
+  },
+  "LU": {
+    "name": "Luxembourg",
+    "region": "Europe",
+    "blurb": "Presence listing — University of Luxembourg English and multilingual degrees. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1544550581-5f7ceaf7f992?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€500–€900 / month",
+    "cities": {
+      "esch-sur-alzette": {
+        "name": "Esch-sur-Alzette",
+        "apartment1br": "€1,500 / month",
+        "apartmentNote": "Belval campus town; Luxembourg City is dearer.",
+        "photo": "https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€500–€900 / month"
+      }
+    }
+  },
+  "UA": {
+    "name": "Ukraine",
+    "region": "Europe",
+    "blurb": "Presence listing — Kyiv-Mohyla English programs. Confirm current campus and visa notices. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$80–$180 / month",
+    "cities": {
+      "kyiv": {
+        "name": "Kyiv",
+        "apartment1br": "$400 / month",
+        "apartmentNote": "Often quoted in USD.",
+        "photo": "https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$80–$180 / month"
+      },
+      "lviv": {
+        "name": "Lviv",
+        "apartment1br": "$350 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Lviv/1400/900",
+        "halls": "$80–$180 / month"
+      }
+    }
+  },
+  "GE": {
+    "name": "Georgia",
+    "region": "Europe",
+    "blurb": "Presence listing — Ilia State English degrees. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1528183425980-198e77b6eef6?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$80–$180 / month",
+    "cities": {
+      "tbilisi": {
+        "name": "Tbilisi",
+        "apartment1br": "$400 / month",
+        "apartmentNote": "Centre 1-bed sample, often billed in USD/GEL.",
+        "photo": "https://images.unsplash.com/photo-1474044159683-06cae85a2f35?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$80–$180 / month"
+      }
+    }
+  },
+  "AM": {
+    "name": "Armenia",
+    "region": "Europe",
+    "blurb": "Presence listing — AUA (English throughout). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$100–$200 / month",
+    "cities": {
+      "yerevan": {
+        "name": "Yerevan",
+        "apartment1br": "$350 / month",
+        "apartmentNote": "Centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1439066538481-dac7d82ee8c0?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$100–$200 / month"
+      }
+    }
+  },
+  "AZ": {
+    "name": "Azerbaijan",
+    "region": "Europe",
+    "blurb": "Presence listing — ADA University (English-medium). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1482192505345-5655af2a76dc?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$120–$250 / month",
+    "cities": {
+      "baku": {
+        "name": "Baku",
+        "apartment1br": "$500 / month",
+        "apartmentNote": "Caspian capital; centre is dearer.",
+        "photo": "https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$120–$250 / month"
+      }
+    }
+  },
+  "MK": {
+    "name": "North Macedonia",
+    "region": "Europe",
+    "blurb": "Presence listing — SEEU Tetovo English programs. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1464037866556-987e5b3cd8ea?auto=format&fit=crop&w=1400&q=80",
+    "halls": "€80–€180 / month",
+    "cities": {
+      "tetovo": {
+        "name": "Tetovo",
+        "apartment1br": "€280 / month",
+        "apartmentNote": "Often quoted in euros.",
+        "photo": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?auto=format&fit=crop&w=1400&q=80",
+        "halls": "€80–€180 / month"
+      },
+      "skopje": {
+        "name": "Skopje",
+        "apartment1br": "€350 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Skopje/1400/900",
+        "halls": "€80–€180 / month"
+      }
+    }
+  },
+  "PK": {
+    "name": "Pakistan",
+    "region": "Asia",
+    "blurb": "Presence listing — LUMS (English classroom). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1516486695875-058d4c026092?auto=format&fit=crop&w=1400&q=80",
+    "halls": "PKR 20,000–40,000 / month",
+    "cities": {
+      "lahore": {
+        "name": "Lahore",
+        "apartment1br": "PKR 80,000 / month",
+        "apartmentNote": "DHA / Gulberg sample; campus housing is tighter.",
+        "photo": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1400&q=80",
+        "halls": "PKR 20,000–40,000 / month"
+      },
+      "islamabad": {
+        "name": "Islamabad",
+        "apartment1br": "$450 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Islamabad/1400/900",
+        "halls": "PKR 20,000–40,000 / month"
+      }
+    }
+  },
+  "BD": {
+    "name": "Bangladesh",
+    "region": "Asia",
+    "blurb": "Presence listing — BRAC University (English classroom). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$60–$120 / month",
+    "cities": {
+      "dhaka": {
+        "name": "Dhaka",
+        "apartment1br": "$250 / month",
+        "apartmentNote": "Often quoted in BDT; USD sample for the slider.",
+        "photo": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$60–$120 / month"
+      }
+    }
+  },
+  "LK": {
+    "name": "Sri Lanka",
+    "region": "Asia",
+    "blurb": "Presence listing — University of Colombo English-medium faculties. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1531572753322-ad618574289b?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$50–$120 / month",
+    "cities": {
+      "colombo": {
+        "name": "Colombo",
+        "apartment1br": "$300 / month",
+        "apartmentNote": "Colombo 7 / Borella sample.",
+        "photo": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$50–$120 / month"
+      },
+      "peradeniya": {
+        "name": "Peradeniya",
+        "apartment1br": "$280 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Peradeniya/1400/900",
+        "halls": "$50–$120 / month"
+      }
+    }
+  },
+  "NP": {
+    "name": "Nepal",
+    "region": "Asia",
+    "blurb": "Presence listing — Kathmandu University English-medium schools. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$50–$100 / month",
+    "cities": {
+      "dhulikhel": {
+        "name": "Dhulikhel",
+        "apartment1br": "$250 / month",
+        "apartmentNote": "Hill campus town east of Kathmandu.",
+        "photo": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$50–$100 / month"
+      },
+      "kathmandu": {
+        "name": "Kathmandu",
+        "apartment1br": "$350 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Kathmandu/1400/900",
+        "halls": "$50–$100 / month"
+      },
+      "pokhara": {
+        "name": "Pokhara",
+        "apartment1br": "$300 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Pokhara/1400/900",
+        "halls": "$50–$100 / month"
+      }
+    }
+  },
+  "KH": {
+    "name": "Cambodia",
+    "region": "Asia",
+    "blurb": "Presence listing — AUPP (English throughout). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1504215680853-026ed2a45def?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$120–$220 / month",
+    "cities": {
+      "phnom-penh": {
+        "name": "Phnom Penh",
+        "apartment1br": "$400 / month",
+        "apartmentNote": "BKK1 / riverside sample.",
+        "photo": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$120–$220 / month"
+      }
+    }
+  },
+  "BN": {
+    "name": "Brunei",
+    "region": "Asia",
+    "blurb": "Presence listing — UBD (English is the usual classroom language). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=1400&q=80",
+    "halls": "BND 200–400 / month",
+    "cities": {
+      "bandar-seri-begawan": {
+        "name": "Bandar Seri Begawan",
+        "apartment1br": "BND 800 / month",
+        "apartmentNote": "Capital / Gadong sample.",
+        "photo": "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?auto=format&fit=crop&w=1400&q=80",
+        "halls": "BND 200–400 / month"
+      }
+    }
+  },
+  "MO": {
+    "name": "Macau",
+    "region": "Asia",
+    "blurb": "Presence listing — University of Macau English-medium faculties. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1518684079-3c830dcef090?auto=format&fit=crop&w=1400&q=80",
+    "halls": "MOP 1,800–3,500 / month",
+    "cities": {
+      "macau": {
+        "name": "Macau",
+        "apartment1br": "MOP 8,000 / month",
+        "apartmentNote": "Hengqin campus is a short hop from the peninsula.",
+        "photo": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1400&q=80",
+        "halls": "MOP 1,800–3,500 / month"
+      }
+    }
+  },
+  "UZ": {
+    "name": "Uzbekistan",
+    "region": "Asia",
+    "blurb": "Presence listing — WIUT (University of Westminster award, English throughout). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$80–$160 / month",
+    "cities": {
+      "tashkent": {
+        "name": "Tashkent",
+        "apartment1br": "$350 / month",
+        "apartmentNote": "Centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1548013146-719dc80b74b9?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$80–$160 / month"
+      }
+    }
+  },
+  "KG": {
+    "name": "Kyrgyzstan",
+    "region": "Asia",
+    "blurb": "Presence listing — AUCA (English throughout). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1546412414-e1885259563a?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$70–$140 / month",
+    "cities": {
+      "bishkek": {
+        "name": "Bishkek",
+        "apartment1br": "$300 / month",
+        "apartmentNote": "Centre 1-bed sample.",
+        "photo": "https://images.unsplash.com/photo-1488646953147-e65c80fd1e0e?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$70–$140 / month"
+      }
+    }
+  },
+  "SA": {
+    "name": "Saudi Arabia",
+    "region": "Middle East",
+    "blurb": "Presence listing — Alfaisal University (English-medium). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1444722881353-39c7de025193?auto=format&fit=crop&w=1400&q=80",
+    "halls": "SAR 1,200–2,200 / month",
+    "cities": {
+      "riyadh": {
+        "name": "Riyadh",
+        "apartment1br": "SAR 3,200 / month",
+        "apartmentNote": "North Riyadh sample.",
+        "photo": "https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=1400&q=80",
+        "halls": "SAR 1,200–2,200 / month"
+      },
+      "jeddah": {
+        "name": "Jeddah",
+        "apartment1br": "SAR 2,800 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Jeddah/1400/900",
+        "halls": "SAR 1,200–2,200 / month"
+      },
+      "dhahran": {
+        "name": "Dhahran",
+        "apartment1br": "SAR 3,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Dhahran/1400/900",
+        "halls": "SAR 1,200–2,200 / month"
+      }
+    }
+  },
+  "KW": {
+    "name": "Kuwait",
+    "region": "Middle East",
+    "blurb": "Presence listing — AUK (English throughout). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1479839672673-bfffe60e45a7?auto=format&fit=crop&w=1400&q=80",
+    "halls": "KWD 120–200 / month",
+    "cities": {
+      "salmiya": {
+        "name": "Salmiya",
+        "apartment1br": "KWD 350 / month",
+        "apartmentNote": "Salmiya / Hawally sample.",
+        "photo": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1400&q=80",
+        "halls": "KWD 120–200 / month"
+      },
+      "mishref": {
+        "name": "Mishref",
+        "apartment1br": "KWD 350 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Mishref/1400/900",
+        "halls": "KWD 120–200 / month"
+      },
+      "kuwait-city": {
+        "name": "Kuwait City",
+        "apartment1br": "KWD 400 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Kuwait City/1400/900",
+        "halls": "KWD 120–200 / month"
+      }
+    }
+  },
+  "BH": {
+    "name": "Bahrain",
+    "region": "Middle East",
+    "blurb": "Presence listing — AUBH (English throughout). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1519904981063-b0cf448d479e?auto=format&fit=crop&w=1400&q=80",
+    "halls": "BHD 100–180 / month",
+    "cities": {
+      "riffa": {
+        "name": "Riffa",
+        "apartment1br": "BHD 280 / month",
+        "apartmentNote": "Riffa / Manama sample.",
+        "photo": "https://images.unsplash.com/photo-1511818966892-d7d671e672a0?auto=format&fit=crop&w=1400&q=80",
+        "halls": "BHD 100–180 / month"
+      },
+      "sakhir": {
+        "name": "Sakhir",
+        "apartment1br": "BHD 280 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Sakhir/1400/900",
+        "halls": "BHD 100–180 / month"
+      }
+    }
+  },
+  "OM": {
+    "name": "Oman",
+    "region": "Middle East",
+    "blurb": "Presence listing — SQU English-medium colleges (especially engineering and science). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1540202404-a2f29016b043?auto=format&fit=crop&w=1400&q=80",
+    "halls": "OMR 60–120 / month",
+    "cities": {
+      "muscat": {
+        "name": "Muscat",
+        "apartment1br": "OMR 250 / month",
+        "apartmentNote": "Al Khoudh / Seeb sample near campus.",
+        "photo": "https://images.unsplash.com/photo-1607237138185-eedd9c632b0c?auto=format&fit=crop&w=1400&q=80",
+        "halls": "OMR 60–120 / month"
+      }
+    }
+  },
+  "JO": {
+    "name": "Jordan",
+    "region": "Middle East",
+    "blurb": "Presence listing — GJU (English/German technical degrees). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1418065460887-0ac21d8d8d4e?auto=format&fit=crop&w=1400&q=80",
+    "halls": "JOD 80–160 / month",
+    "cities": {
+      "madaba": {
+        "name": "Madaba",
+        "apartment1br": "JOD 350 / month",
+        "apartmentNote": "Madaba campus; Amman is a short drive.",
+        "photo": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1400&q=80",
+        "halls": "JOD 80–160 / month"
+      },
+      "amman": {
+        "name": "Amman",
+        "apartment1br": "$550 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Amman/1400/900",
+        "halls": "JOD 80–160 / month"
+      },
+      "irbid": {
+        "name": "Irbid",
+        "apartment1br": "JOD 250 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Irbid/1400/900",
+        "halls": "JOD 80–160 / month"
+      }
+    }
+  },
+  "LB": {
+    "name": "Lebanon",
+    "region": "Middle East",
+    "blurb": "Presence listing — AUB (English throughout). Confirm current campus notices. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1470770841072-f9730968f19e?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$200–$400 / month",
+    "cities": {
+      "beirut": {
+        "name": "Beirut",
+        "apartment1br": "$600 / month",
+        "apartmentNote": "Hamra / Ras Beirut sample, usually USD.",
+        "photo": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$200–$400 / month"
+      }
+    }
+  },
+  "NG": {
+    "name": "Nigeria",
+    "region": "Africa",
+    "blurb": "Presence listing — University of Ibadan (English is the classroom language). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1520250497591-425fcfda73fa?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$40–$90 / month",
+    "cities": {
+      "ibadan": {
+        "name": "Ibadan",
+        "apartment1br": "$200 / month",
+        "apartmentNote": "Off-campus 1-bed sample; campus housing is cheaper.",
+        "photo": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$40–$90 / month"
+      },
+      "lagos": {
+        "name": "Lagos",
+        "apartment1br": "$700 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Lagos/1400/900",
+        "halls": "$40–$90 / month"
+      },
+      "zaria": {
+        "name": "Zaria",
+        "apartment1br": "$280 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Zaria/1400/900",
+        "halls": "$40–$90 / month"
+      },
+      "ile-ife": {
+        "name": "Ile-Ife",
+        "apartment1br": "$300 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Ile-Ife/1400/900",
+        "halls": "$40–$90 / month"
+      }
+    }
+  },
+  "RW": {
+    "name": "Rwanda",
+    "region": "Africa",
+    "blurb": "Presence listing — ALU Kigali (English throughout). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1491557345352-5924e6433668?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$120–$220 / month",
+    "cities": {
+      "kigali": {
+        "name": "Kigali",
+        "apartment1br": "$400 / month",
+        "apartmentNote": "Nyarutarama / Kacyiru sample.",
+        "photo": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$120–$220 / month"
+      }
+    }
+  },
+  "UG": {
+    "name": "Uganda",
+    "region": "Africa",
+    "blurb": "Presence listing — Makerere (English is the classroom language). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1426604966848-d7adac76bf07?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$50–$120 / month",
+    "cities": {
+      "kampala": {
+        "name": "Kampala",
+        "apartment1br": "$400 / month",
+        "apartmentNote": "Wandegeya / Makerere hill sample.",
+        "photo": "https://images.unsplash.com/photo-1541339905348-b3b563229de5?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$50–$120 / month"
+      },
+      "mbarara": {
+        "name": "Mbarara",
+        "apartment1br": "$280 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Mbarara/1400/900",
+        "halls": "$50–$120 / month"
+      }
+    }
+  },
+  "TZ": {
+    "name": "Tanzania",
+    "region": "Africa",
+    "blurb": "Presence listing — UDSM (English is the classroom language). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3c3?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$40–$100 / month",
+    "cities": {
+      "dar-es-salaam": {
+        "name": "Dar es Salaam",
+        "apartment1br": "$400 / month",
+        "apartmentNote": "Mikocheni / Kinondoni sample.",
+        "photo": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$40–$100 / month"
+      },
+      "arusha": {
+        "name": "Arusha",
+        "apartment1br": "$400 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Arusha/1400/900",
+        "halls": "$40–$100 / month"
+      }
+    }
+  },
+  "ET": {
+    "name": "Ethiopia",
+    "region": "Africa",
+    "blurb": "Presence listing — AAU English-medium graduate schools and some bachelor’s. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1496307653780-42ee777d4833?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$40–$90 / month",
+    "cities": {
+      "addis-ababa": {
+        "name": "Addis Ababa",
+        "apartment1br": "$350 / month",
+        "apartmentNote": "Bole / Sidist Kilo sample.",
+        "photo": "https://images.unsplash.com/photo-1564981797816-1043664bf00f?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$40–$90 / month"
+      },
+      "jimma": {
+        "name": "Jimma",
+        "apartment1br": "$250 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Jimma/1400/900",
+        "halls": "$40–$90 / month"
+      }
+    }
+  },
+  "BW": {
+    "name": "Botswana",
+    "region": "Africa",
+    "blurb": "Presence listing — University of Botswana (English is the classroom language). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702c?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$80–$160 / month",
+    "cities": {
+      "gaborone": {
+        "name": "Gaborone",
+        "apartment1br": "$400 / month",
+        "apartmentNote": "Gaborone CBD / village sample.",
+        "photo": "https://images.unsplash.com/photo-1548919973-5b8a7d454f2a?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$80–$160 / month"
+      },
+      "palapye": {
+        "name": "Palapye",
+        "apartment1br": "BWP 4,500 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Palapye/1400/900",
+        "halls": "$80–$160 / month"
+      }
+    }
+  },
+  "NA": {
+    "name": "Namibia",
+    "region": "Africa",
+    "blurb": "Presence listing — UNAM (English is the classroom language). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$80–$160 / month",
+    "cities": {
+      "windhoek": {
+        "name": "Windhoek",
+        "apartment1br": "$450 / month",
+        "apartmentNote": "Windhoek centre / Klein Windhoek sample.",
+        "photo": "https://images.unsplash.com/photo-1483729558449-99ef03a2d348?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$80–$160 / month"
+      }
+    }
+  },
+  "MU": {
+    "name": "Mauritius",
+    "region": "Africa",
+    "blurb": "Presence listing — University of Mauritius (English is the usual classroom language). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1400&q=80",
+    "halls": "MUR 4,000–8,000 / month",
+    "cities": {
+      "reduit": {
+        "name": "Reduit",
+        "apartment1br": "MUR 15,000 / month",
+        "apartmentNote": "Moka / Reduit sample.",
+        "photo": "https://images.unsplash.com/photo-1531761535209-180857e1b4ce?auto=format&fit=crop&w=1400&q=80",
+        "halls": "MUR 4,000–8,000 / month"
+      },
+      "port-louis": {
+        "name": "Port Louis",
+        "apartment1br": "MUR 18,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Port Louis/1400/900",
+        "halls": "MUR 4,000–8,000 / month"
+      }
+    }
+  },
+  "MA": {
+    "name": "Morocco",
+    "region": "Africa",
+    "blurb": "Presence listing — Al Akhawayn (English throughout). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1497366811353-687386012821?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$200–$350 / month",
+    "cities": {
+      "ifrane": {
+        "name": "Ifrane",
+        "apartment1br": "$500 / month",
+        "apartmentNote": "Campus town in the Middle Atlas; most students live on site.",
+        "photo": "https://images.unsplash.com/photo-1589909202802-8f4aad14052c?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$200–$350 / month"
+      },
+      "rabat": {
+        "name": "Rabat",
+        "apartment1br": "MAD 6,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-Rabat/1400/900",
+        "halls": "$200–$350 / month"
+      },
+      "benguerir": {
+        "name": "Benguerir",
+        "apartment1br": "MAD 4,500 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Benguerir/1400/900",
+        "halls": "$200–$350 / month"
+      },
+      "marrakech": {
+        "name": "Marrakech",
+        "apartment1br": "MAD 5,500 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Marrakech/1400/900",
+        "halls": "$200–$350 / month"
+      },
+      "casablanca": {
+        "name": "Casablanca",
+        "apartment1br": "MAD 7,000 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Casablanca/1400/900",
+        "halls": "$200–$350 / month"
+      }
+    }
+  },
+  "ZW": {
+    "name": "Zimbabwe",
+    "region": "Africa",
+    "blurb": "Presence listing — University of Zimbabwe (English is the classroom language). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$50–$120 / month",
+    "cities": {
+      "harare": {
+        "name": "Harare",
+        "apartment1br": "$400 / month",
+        "apartmentNote": "Usually quoted in USD.",
+        "photo": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc31?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$50–$120 / month"
+      },
+      "bulawayo": {
+        "name": "Bulawayo",
+        "apartment1br": "$350 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Bulawayo/1400/900",
+        "halls": "$50–$120 / month"
+      }
+    }
+  },
+  "ZM": {
+    "name": "Zambia",
+    "region": "Africa",
+    "blurb": "Presence listing — UNZA (English is the classroom language). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$50–$110 / month",
+    "cities": {
+      "lusaka": {
+        "name": "Lusaka",
+        "apartment1br": "$400 / month",
+        "apartmentNote": "Great East Road / Rhodes Park sample.",
+        "photo": "https://images.unsplash.com/photo-1555899434-94d5a336f507?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$50–$110 / month"
+      },
+      "kitwe": {
+        "name": "Kitwe",
+        "apartment1br": "$400 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Kitwe/1400/900",
+        "halls": "$50–$110 / month"
+      }
+    }
+  },
+  "PE": {
+    "name": "Peru",
+    "region": "Latin America",
+    "blurb": "Presence listing — Universidad del Pacifico English-track business and economics. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1524178232363-1fbcd13b4176?auto=format&fit=crop&w=1400&q=80",
+    "halls": "PEN 800–1,400 / month",
+    "cities": {
+      "lima": {
+        "name": "Lima",
+        "apartment1br": "PEN 2,000 / month",
+        "apartmentNote": "Jesus Maria / San Isidro sample.",
+        "photo": "https://images.unsplash.com/photo-1508009603885-50cf7c8dd0d5?auto=format&fit=crop&w=1400&q=80",
+        "halls": "PEN 800–1,400 / month"
+      }
+    }
+  },
+  "UY": {
+    "name": "Uruguay",
+    "region": "Latin America",
+    "blurb": "Presence listing — ORT Uruguay English-taught degrees. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1524995997940-a1c82f5c3b48?auto=format&fit=crop&w=1400&q=80",
+    "halls": "UYU 8,000–14,000 / month",
+    "cities": {
+      "montevideo": {
+        "name": "Montevideo",
+        "apartment1br": "UYU 25,000 / month",
+        "apartmentNote": "Pocitos / Centro sample.",
+        "photo": "https://images.unsplash.com/photo-1596422846543-75c6fc197ea1?auto=format&fit=crop&w=1400&q=80",
+        "halls": "UYU 8,000–14,000 / month"
+      }
+    }
+  },
+  "EC": {
+    "name": "Ecuador",
+    "region": "Latin America",
+    "blurb": "Presence listing — USFQ English-taught degrees. Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1456513080880-7d93d20d14dc?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$150–$280 / month",
+    "cities": {
+      "quito": {
+        "name": "Quito",
+        "apartment1br": "$400 / month",
+        "apartmentNote": "Cumbaya campus town; Ecuador uses the US dollar.",
+        "photo": "https://images.unsplash.com/photo-1539768942893-daf53e313e80?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$150–$280 / month"
+      },
+      "guayaquil": {
+        "name": "Guayaquil",
+        "apartment1br": "$450 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Guayaquil/1400/900",
+        "halls": "$150–$280 / month"
+      }
+    }
+  },
+  "CR": {
+    "name": "Costa Rica",
+    "region": "Latin America",
+    "blurb": "Presence listing — EARTH University (English/Spanish agricultural bachelor). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1400&q=80",
+    "halls": "Included in the residential program",
+    "cities": {
+      "guacimo": {
+        "name": "Guacimo",
+        "apartment1br": "$400 / month",
+        "apartmentNote": "Rural campus; most students live on site.",
+        "photo": "https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?auto=format&fit=crop&w=1400&q=80",
+        "halls": "Included in the residential program"
+      },
+      "san-jose": {
+        "name": "San Jose",
+        "apartment1br": "$750 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w10-city-San Jose/1400/900",
+        "halls": "Included in the residential program"
+      },
+      "cartago": {
+        "name": "Cartago",
+        "apartment1br": "$500 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Cartago/1400/900",
+        "halls": "Included in the residential program"
+      }
+    }
+  },
+  "PA": {
+    "name": "Panama",
+    "region": "Latin America",
+    "blurb": "Presence listing — QLU (English-taught US partner degrees). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$300–$500 / month",
+    "cities": {
+      "panama-city": {
+        "name": "Panama City",
+        "apartment1br": "$800 / month",
+        "apartmentNote": "Cinta Costera / San Francisco sample.",
+        "photo": "https://images.unsplash.com/photo-1489392191049-fc10c97e64b6?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$300–$500 / month"
+      }
+    }
+  },
+  "JM": {
+    "name": "Jamaica",
+    "region": "Latin America",
+    "blurb": "Presence listing — UWI Mona (English throughout). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1496307042754-b4aa98c3d7c0?auto=format&fit=crop&w=1400&q=80",
+    "halls": "$150–$280 / month",
+    "cities": {
+      "kingston-jamaica": {
+        "name": "Kingston Jamaica",
+        "apartment1br": "$500 / month",
+        "apartmentNote": "Liguanea / Mona sample.",
+        "photo": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=1400&q=80",
+        "halls": "$150–$280 / month"
+      }
+    }
+  },
+  "TT": {
+    "name": "Trinidad and Tobago",
+    "region": "Latin America",
+    "blurb": "Presence listing — UWI St. Augustine (English throughout). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1400&q=80",
+    "halls": "TTD 1,200–2,200 / month",
+    "cities": {
+      "st-augustine": {
+        "name": "St. Augustine",
+        "apartment1br": "TTD 4,500 / month",
+        "apartmentNote": "St. Augustine / Tunapuna sample.",
+        "photo": "https://images.unsplash.com/photo-1513326738677-b964603b136d?auto=format&fit=crop&w=1400&q=80",
+        "halls": "TTD 1,200–2,200 / month"
+      },
+      "port-of-spain": {
+        "name": "Port of Spain",
+        "apartment1br": "TTD 5,500 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Port of Spain/1400/900",
+        "halls": "TTD 1,200–2,200 / month"
+      }
+    }
+  },
+  "FJ": {
+    "name": "Fiji",
+    "region": "Oceania",
+    "blurb": "Presence listing — USP Laucala (English throughout). Not a complete national directory.",
+    "photo": "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1400&q=80",
+    "halls": "FJD 400–700 / month",
+    "cities": {
+      "suva": {
+        "name": "Suva",
+        "apartment1br": "FJD 1,100 / month",
+        "apartmentNote": "Suva centre / Laucala Bay sample.",
+        "photo": "https://images.unsplash.com/photo-1555881400-74d7acaacd8b?auto=format&fit=crop&w=1400&q=80",
+        "halls": "FJD 400–700 / month"
+      },
+      "lautoka": {
+        "name": "Lautoka",
+        "apartment1br": "FJD 900 / month",
+        "apartmentNote": "City-centre sample.",
+        "photo": "https://picsum.photos/seed/globaled-w11-city-Lautoka/1400/900",
+        "halls": "FJD 400–700 / month"
+      }
+    }
+  }
+}
