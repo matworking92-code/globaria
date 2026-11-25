@@ -862,7 +862,7 @@ function cheapestProgram(programs) {
 function rankingChips(school) {
   const tags = Array.isArray(school.rankings) ? school.rankings.filter((tag) => tag === "QS" || tag === "THE" || tag === "ARWU") : [];
   if (!tags.length) return "";
-  return tags.map((tag) => `<span class="chip chip--rank" title="This institution appears in the ${tag === "THE" ? "Times Higher Education" : tag === "ARWU" ? "Shanghai (ARWU)" : "QS"} global university table. Not a GlobalEd rank or position.">${tag}</span>`).join("");
+  return tags.map((tag) => `<span class="chip chip--rank" title="This institution appears in the ${tag === "THE" ? "Times Higher Education" : tag === "ARWU" ? "Shanghai (ARWU)" : "QS"} global university table. Not a Globaria rank or position.">${tag}</span>`).join("");
 }
 
 function cheapestUsdForSchool(schoolId) {
