@@ -632,6 +632,27 @@ function readRangePair(minInput, maxInput, bound, which) {
   return { min, max };
 }
 
+const RANGE_THUMB_INSET = 9;
+
+function snapRangeValue(value, bound) {
+  const step = Number(bound.step) || 1;
+  const snapped = bound.min + Math.round((value - bound.min) / step) * step;
+  return Math.min(bound.max, Math.max(bound.min, snapped));
+}
+
+function rangeValueFromClientX(track, clientX, bound) {
+  const rect = track.getBoundingClientRect();
+  const width = Math.max(1, rect.width - RANGE_THUMB_INSET * 2);
+  const t = (clientX - rect.left - RANGE_THUMB_INSET) / width;
+  return snapRangeValue(bound.min + t * (bound.max - bound.min), bound);
+}
+
+function nearestRangeHandle(value, min, max) {
+  if (value <= min) return "min";
+  if (value >= max) return "max";
+  return value - min <= max - value ? "min" : "max";
+}
+
 function paintRangeChips() {
   const el = document.querySelector("#range-chips");
   if (!el) return;
@@ -1605,6 +1626,39 @@ function init() {
   els.dailyMax?.addEventListener("input", () => liveRange("max", "daily"));
   els.rentMin?.addEventListener("input", () => liveRange("min", "rent"));
   els.rentMax?.addEventListener("input", () => liveRange("max", "rent"));
+
+  for (const kind of ["tuition", "safety", "daily", "rent"]) {
+    const minInput = els[`${kind}Min`];
+    const maxInput = els[`${kind}Max`];
+    const track = minInput?.closest(".dual-range");
+    if (!track || !maxInput) continue;
+    let dragging = "";
+    const applyTrack = (clientX, which) => {
+      const bound = rangeBounds[kind];
+      if (!bound) return;
+      const input = which === "min" ? minInput : maxInput;
+      input.value = rangeValueFromClientX(track, clientX, bound);
+      liveRange(which, kind);
+    };
+    track.addEventListener("pointerdown", (event) => {
+      if (event.button !== 0) return;
+      if (event.target.closest("input[type='range']")) return;
+      const bound = rangeBounds[kind];
+      if (!bound) return;
+      event.preventDefault();
+      const value = rangeValueFromClientX(track, event.clientX, bound);
+      dragging = nearestRangeHandle(value, Number(minInput.value), Number(maxInput.value));
+      track.setPointerCapture?.(event.pointerId);
+      applyTrack(event.clientX, dragging);
+    });
+    track.addEventListener("pointermove", (event) => {
+      if (!dragging) return;
+      applyTrack(event.clientX, dragging);
+    });
+    const stopDrag = () => { dragging = ""; };
+    track.addEventListener("pointerup", stopDrag);
+    track.addEventListener("pointercancel", stopDrag);
+  }
 
   els.list.addEventListener("click", (event) => {
     const save = event.target.closest("[data-save]");

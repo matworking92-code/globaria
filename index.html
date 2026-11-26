@@ -8,29 +8,59 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/travel.css?v=globaria-live-1">
-    <script defer src="/catalogue.js?v=globaria-live-1"></script>
-    <script defer src="/app.js?v=globaria-live-1"></script>
+    <link rel="stylesheet" href="/travel.css?v=globaria-live-3">
+    <script defer src="/catalogue.js?v=globaria-live-3"></script>
+    <script defer src="/app.js?v=globaria-live-3"></script>
   </head>
   <body>
-    <p class="banner">Destinations in Europe, North America, Asia, the Middle East, Latin America, Africa, and Oceania.</p>
+    <p class="banner">1,000+ English-taught bachelor’s and master’s · Europe, Asia, the Americas, Africa, and Oceania</p>
     <header class="topbar">
       <a class="wordmark" href="/">Globaria <span>Travel-style degree finder</span></a>
-      <p class="topbar-note">English-taught bachelor’s and master’s · compare like a trip</p>
+      <p class="topbar-note">Compare like a trip · apply on the school’s own page</p>
     </header>
 
     <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Plan the year abroad</p>
-        <h1>Find an English-taught degree the way you’d book a destination.</h1>
-        <p>
-          Compare English-taught bachelor’s and master’s by tuition, housing, living cost, duration, and safety.
-          Then open the school’s own admissions page.
-        </p>
+      <div class="hero-lead">
+        <div class="hero-copy">
+          <p class="eyebrow">Plan the year abroad</p>
+          <h1>Find an English-taught degree the way you’d book a destination.</h1>
+          <p class="hero-lede">
+            Compare bachelor’s and master’s by tuition, housing, living cost, duration, and safety.
+            Then open the school’s own admissions page.
+          </p>
+        </div>
+        <form class="search-widget" id="hero-search" autocomplete="off">
+          <p class="search-kicker">Start here</p>
+          <label class="search-where">
+            Where
+            <select id="hero-country">
+              <option value="">Choose a destination</option>
+            </select>
+          </label>
+          <label>
+            Level
+            <select id="hero-level">
+              <option value="">Bachelor’s or master’s</option>
+              <option value="Bachelor’s">Bachelor’s</option>
+              <option value="Master’s">Master’s</option>
+            </select>
+          </label>
+          <label>
+            Study mode
+            <select id="hero-delivery">
+              <option value="">Any mode</option>
+              <option value="On campus">On campus</option>
+              <option value="Hybrid">Hybrid</option>
+              <option value="Remote">Remote</option>
+            </select>
+          </label>
+          <button type="submit">Find programs</button>
+        </form>
+        <div class="subject-bar" id="subject-chips"></div>
       </div>
       <div class="hero-sliders">
         <p class="sliders-kicker">Budget &amp; safety</p>
-        <p class="sliders-hint">Drag a handle to skip places that are too dear or too risky. Then pick a destination.</p>
+        <p class="sliders-hint">Click the bar or drag a handle to skip places that are too dear or too risky.</p>
         <div class="range-chips" id="range-chips" hidden></div>
         <div class="range-filter range-filter--tuition">
           <h2>Tuition per semester</h2>
@@ -78,33 +108,6 @@
           <label><input type="radio" name="residency-hero" value="eu"> EU/EEA</label>
         </fieldset>
       </div>
-      <form class="search-widget" id="hero-search" autocomplete="off">
-        <label>
-          Where
-          <select id="hero-country">
-            <option value="">Choose a destination</option>
-          </select>
-        </label>
-        <label>
-          Level
-          <select id="hero-level">
-            <option value="">Bachelor’s or master’s</option>
-            <option value="Bachelor’s">Bachelor’s</option>
-            <option value="Master’s">Master’s</option>
-          </select>
-        </label>
-        <label>
-          Study mode
-          <select id="hero-delivery">
-            <option value="">Any mode</option>
-            <option value="On campus">On campus</option>
-            <option value="Hybrid">Hybrid</option>
-            <option value="Remote">Remote</option>
-          </select>
-        </label>
-        <button type="submit">Find programs</button>
-      </form>
-      <div class="subject-bar" id="subject-chips"></div>
     </section>
 
     <main class="board">
@@ -210,7 +213,7 @@
       <div class="site-foot-method">
         <h2>How figures are shown</h2>
         <p>
-          Local prototype. Safety index scores are Numbeo figures (0–100, higher is safer),
+          Safety index scores are Numbeo figures (0–100, higher is safer),
           from the 2026 contributor survey. Color on the score follows that same index
           (Very safe, Safe, Moderate, Caution, Concern — higher is safer). Prices are shown in local currency and US dollars
           (approximate). Tuition figures prefer the university’s published 2026–27 (or latest)
