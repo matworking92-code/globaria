@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
+    <title>English-taught degrees abroad | Globaria (classic)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/travel.css?v=globaria-live-12">
+    <script defer src="/catalogue.js?v=globaria-live-12"></script>
+    <script defer src="/app.js?v=globaria-live-12"></script>
+  </head>
+  <body>
+    <p class="banner">1,000+ English-taught bachelor’s and master’s · Europe, Asia, the Americas, Africa, and Oceania</p>
+    <header class="topbar">
+      <a class="wordmark" href="/classic.html">Globaria <span>Travel-style degree finder</span></a>
+      <p class="topbar-note">Compare like a trip · apply on the school’s own page</p>
+    </header>
+
+    <section class="hero">
+      <div class="hero-lead">
+        <div class="hero-copy">
+          <p class="eyebrow">Plan the year abroad</p>
+          <h1>Find an English-taught degree the way you’d book a destination.</h1>
+          <p class="hero-lede">
+            Compare bachelor’s and master’s by tuition, housing, living cost, duration, and safety.
+            Then open the school’s own admissions page.
+          </p>
+        </div>
+        <form class="search-widget" id="hero-search" autocomplete="off">
+          <p class="search-kicker">Start here</p>
+          <label class="search-where">
+            Where
+            <select id="hero-country">
+              <option value="">Choose a destination</option>
+            </select>
+          </label>
+          <label>
+            Level
+            <select id="hero-level">
+              <option value="">Bachelor’s or master’s</option>
+              <option value="Bachelor’s">Bachelor’s</option>
+              <option value="Master’s">Master’s</option>
+            </select>
+          </label>
+          <label>
+            Study mode
+            <select id="hero-delivery">
+              <option value="">Any mode</option>
+              <option value="On campus">On campus</option>
+              <option value="Hybrid">Hybrid</option>
+              <option value="Remote">Remote</option>
+            </select>
+          </label>
+          <button type="submit">Find programs</button>
+        </form>
+        <div class="subject-bar" id="subject-chips"></div>
+      </div>
+      <div class="hero-sliders">
+        <p class="sliders-kicker">Budget &amp; safety</p>
+        <p class="sliders-hint">Click the bar or drag a handle to skip places that are too dear or too risky.</p>
+        <div class="range-chips" id="range-chips" hidden></div>
+        <div class="range-filter range-filter--tuition">
+          <h2>Tuition per semester</h2>
+          <p class="range-values"><span id="tuition-min-label">$0</span> – <span id="tuition-max-label">$0</span></p>
+          <div class="dual-range">
+            <div class="dual-range-rail"><i class="dual-range-fill" id="tuition-fill"></i></div>
+            <input id="tuition-min" type="range" aria-label="Minimum tuition per semester in US dollars">
+            <input id="tuition-max" type="range" aria-label="Maximum tuition per semester in US dollars">
+          </div>
+          <p class="range-ends"><span id="tuition-bound-min">Min</span><span id="tuition-bound-max">Max</span></p>
+        </div>
+        <div class="range-filter range-filter--safety">
+          <h2>Safety index</h2>
+          <p class="range-values"><span id="safety-min-label">0 / 100</span> – <span id="safety-max-label">100 / 100</span></p>
+          <div class="dual-range">
+            <div class="dual-range-rail"><i class="dual-range-fill" id="safety-fill"></i></div>
+            <input id="safety-min" type="range" aria-label="Minimum city safety index">
+            <input id="safety-max" type="range" aria-label="Maximum city safety index">
+          </div>
+          <p class="range-ends"><span>Lower safety</span><span>Higher safety</span></p>
+        </div>
+        <div class="range-filter range-filter--daily">
+          <h2>Daily costs vs US</h2>
+          <p class="range-values"><span id="daily-min-label">0% of US</span> – <span id="daily-max-label">0% of US</span></p>
+          <div class="dual-range">
+            <div class="dual-range-rail"><i class="dual-range-fill" id="daily-fill"></i></div>
+            <input id="daily-min" type="range" aria-label="Minimum daily costs versus the United States">
+            <input id="daily-max" type="range" aria-label="Maximum daily costs versus the United States">
+          </div>
+          <p class="range-ends"><span>Cheaper daily</span><span>More expensive daily</span></p>
+        </div>
+        <div class="range-filter range-filter--rent">
+          <h2>1-bed apartment</h2>
+          <p class="range-values"><span id="rent-min-label">$0</span> – <span id="rent-max-label">$0</span></p>
+          <div class="dual-range">
+            <div class="dual-range-rail"><i class="dual-range-fill" id="rent-fill"></i></div>
+            <input id="rent-min" type="range" aria-label="Minimum city-centre 1-bed rent in US dollars">
+            <input id="rent-max" type="range" aria-label="Maximum city-centre 1-bed rent in US dollars">
+          </div>
+          <p class="range-ends"><span id="rent-bound-min">Min</span><span id="rent-bound-max">Max</span></p>
+        </div>
+        <fieldset class="fee-toggle">
+          <legend>Fee rate</legend>
+          <label><input type="radio" name="residency-hero" value="non-eu" checked> Non-EU / international</label>
+          <label><input type="radio" name="residency-hero" value="eu"> EU/EEA</label>
+        </fieldset>
+      </div>
+    </section>
+
+    <main class="board">
+      <aside class="filters" aria-label="Filters">
+        <h2>Refine the search</h2>
+        <label class="filter-search">
+          Search programs
+          <input id="globaled-query" name="globaled-query" type="text" placeholder="MBA, computer science, Nicosia…" autocomplete="off" spellcheck="false" value="">
+        </label>
+        <fieldset>
+          <legend>Destination</legend>
+          <label class="dest-sort-label">
+            Sort destinations
+            <select id="dest-sort-side">
+              <option value="region">By region</option>
+              <option value="alpha">Alphabetical</option>
+              <option value="tuition">Lowest tuition first</option>
+              <option value="housing">Lowest housing first</option>
+              <option value="living">Lowest daily costs first</option>
+              <option value="safety">Safest first</option>
+            </select>
+          </label>
+          <div id="country-filters"></div>
+        </fieldset>
+        <fieldset>
+          <legend>City</legend>
+          <div id="city-filters"></div>
+        </fieldset>
+        <fieldset>
+          <legend>Subject</legend>
+          <div id="subject-filters"></div>
+        </fieldset>
+        <fieldset>
+          <legend>Fee rate</legend>
+          <label><input type="radio" name="residency-side" value="non-eu" checked> Non-EU / international</label>
+          <label><input type="radio" name="residency-side" value="eu"> EU/EEA</label>
+        </fieldset>
+        <fieldset>
+          <legend>Level</legend>
+          <label><input type="radio" name="level" value="" checked> All levels</label>
+          <label><input type="radio" name="level" value="Bachelor’s"> Bachelor’s</label>
+          <label><input type="radio" name="level" value="Master’s"> Master’s</label>
+        </fieldset>
+        <fieldset>
+          <legend>Program duration</legend>
+          <label><input type="radio" name="duration" value="" checked> Any length</label>
+          <label><input type="radio" name="duration" value="1-2"> 1–2 years</label>
+          <label><input type="radio" name="duration" value="3"> 3 years</label>
+          <label><input type="radio" name="duration" value="4"> 4 years</label>
+          <label><input type="radio" name="duration" value="5"> 5 years or more</label>
+        </fieldset>
+        <fieldset>
+          <legend>Study mode</legend>
+          <label><input type="radio" name="delivery" value="" checked> Any mode</label>
+          <label><input type="radio" name="delivery" value="On campus"> On campus</label>
+          <label><input type="radio" name="delivery" value="Hybrid"> Hybrid</label>
+          <label><input type="radio" name="delivery" value="Remote"> Remote</label>
+        </fieldset>
+        <button type="button" class="text-btn" id="clear-filters">Clear filters</button>
+      </aside>
+
+      <section class="results">
+        <div class="results-head">
+          <div>
+            <h2 id="results-title">Available programs</h2>
+            <p id="results-count">Loading…</p>
+          </div>
+          <label class="results-sort">
+            Sort listings
+            <select id="sort-filter">
+              <option value="price">Lowest tuition first</option>
+              <option value="housing">Lowest housing first</option>
+              <option value="living">Lowest daily costs first</option>
+              <option value="safety">Safest city first</option>
+              <option value="name">Alphabetical</option>
+            </select>
+          </label>
+        </div>
+        <div id="results-list"></div>
+        <details class="browse-destinations" aria-label="Browse destinations" open>
+          <summary class="browse-head">
+            <span class="browse-head-title">Browse destinations</span>
+            <label class="dest-sort-label">
+              Sort destinations
+              <select id="dest-sort">
+                <option value="region">By region</option>
+                <option value="alpha">Alphabetical</option>
+                <option value="tuition">Lowest tuition first</option>
+                <option value="housing">Lowest housing first</option>
+                <option value="living">Lowest daily costs first</option>
+                <option value="safety">Safest first</option>
+              </select>
+            </label>
+          </summary>
+          <div class="destinations" id="destination-cards"></div>
+        </details>
+      </section>
+    </main>
+
+    <aside class="shortlist-tray" id="shortlist-tray" hidden></aside>
+
+    <footer class="site-foot">
+      <div class="site-foot-method">
+        <h2>How figures are shown</h2>
+        <p>
+          Safety index scores are Numbeo figures (0–100, higher is safer),
+          from the 2026 contributor survey. Color on the score follows that same index
+          (Very safe, Safe, Moderate, Caution, Concern — higher is safer). Prices are shown in local currency and US dollars
+          (approximate). Tuition figures prefer the university’s published 2026–27 (or latest)
+          rate for a named program; city 1-bed rents use Numbeo city-centre asking rents
+          (August 2026 contributors). Daily-cost marks ($ to $$$$$) use Numbeo’s 2026
+          Cost of Living Index excluding rent, scaled so the United States = 100: Much cheaper,
+          Cheaper, About the same, More expensive, Much more expensive — groceries,
+          restaurants, transport, and utilities, not rent. 1-bed apartment figures are shown
+          in US dollars (a rough conversion from the local asking rent). Halls are a
+          typical city (or country) figure unless a campus is known to differ — no halls,
+          housing included in tuition, or a clearly different range. Program names are a snapshot sample (up to eight), taken from the
+          school’s English-taught list, not a complete catalogue. Program length is a typical national structure (for
+          example a three-year bachelor’s in Norway or England, a four-year honours degree in
+          Scotland or Ireland) or a named length in the program title. Confirm with the school. A campus is listed when a full English-taught bachelor
+          or master’s exists, an international can apply on a real admissions page, a named-year
+          fee or an honest confirm note is attached, and the school is a recognised
+          degree-granting institution in that country. Listings are demand-weighted for US
+          students: popular degree destinations are deep; other countries may be a 1–2 campus
+          presence listing, not a complete national directory. Index listings name a campus
+          and English-taught programs but carry no tuition — they are excluded from the
+          tuition slider and from country/city tuition medians so unconfirmed fees cannot
+          skew the comparison. QS, THE, and ARWU chips mean the institution appears in that
+          publisher’s global table; they are not a Globaria rank or a paid placement. Cost
+          and ranking are not inclusion gates. EU/EEA fee rates apply where the university publishes a separate
+          price; elsewhere the international rate is shown for both.
+        </p>
+      </div>
+      <div class="site-foot-legal">
+        <h2>Important notices</h2>
+        <ul>
+          <li>This site is a comparison aid only. It is not legal, immigration, visa, financial, tax, or academic advice, and it is not an application service.</li>
+          <li>Always confirm program availability, language of instruction, fees, housing, study length, visa rules, and entry requirements with the university and the relevant government. Figures change every year and can be program-specific.</li>
+          <li>Listings are not complete national directories. Inclusion is not an endorsement, ranking, or accreditation claim. Globaria is not affiliated with the universities, governments, or data sources named here unless a partnership is stated in writing.</li>
+          <li>Safety scores, rents, living-cost labels, and dollar conversions are estimates from third-party and public sources. They can be incomplete, outdated, or wrong. We do not warrant accuracy or fitness for a particular decision.</li>
+          <li>Use of this site is at your own risk. To the fullest extent permitted by law, Globaria is not liable for decisions made from this information, including applications, travel, enrolment, or cost of attendance.</li>
+        </ul>
+      </div>
+    </footer>
+
+  </body>
+</html>

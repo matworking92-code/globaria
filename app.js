@@ -1206,10 +1206,42 @@ function paintDestinations() {
       firstRegion = false;
       return `<div class="dest-region"><h3>${escapeHtml(region)}</h3><div class="dest-row">${destCardsMarkup(entries, eager)}</div></div>`;
     }).join("");
-    return;
+  } else {
+    const ranked = sortByDestMetric(countryEntries(), (entry) => entry[0], countryMetric);
+    els.destCards.innerHTML = `<div class="dest-region"><h3>${escapeHtml(destSortHeading())}</h3><div class="dest-row">${destCardsMarkup(ranked, true)}</div></div>`;
   }
-  const ranked = sortByDestMetric(countryEntries(), (entry) => entry[0], countryMetric);
-  els.destCards.innerHTML = `<div class="dest-region"><h3>${escapeHtml(destSortHeading())}</h3><div class="dest-row">${destCardsMarkup(ranked, true)}</div></div>`;
+  paintDestBands();
+}
+
+function destBandColumnCount(row) {
+  if (window.innerWidth <= 960) return 1;
+  if (window.innerWidth <= 1100) return 2;
+  const gap = 16;
+  const minCard = 180;
+  const width = row.clientWidth || 1;
+  return Math.max(1, Math.floor((width + gap) / (minCard + gap)));
+}
+
+function paintDestBands() {
+  if (!document.body.classList.contains("theme-painted") || !els.destCards) return;
+  els.destCards.querySelectorAll(".dest-row").forEach((row) => {
+    row.querySelectorAll(".dest-band").forEach((band) => {
+      band.replaceWith(...band.children);
+    });
+    const cards = [...row.children].filter((el) => el.classList.contains("dest-card"));
+    if (!cards.length) return;
+    const cols = destBandColumnCount(row);
+    const perBand = cols * 3;
+    const wraps = [];
+    for (let i = 0; i < cards.length; i += perBand) {
+      const wrap = document.createElement("div");
+      wrap.className = `dest-band dest-band--${wraps.length % 4}`;
+      wrap.style.setProperty("--dest-cols", String(cols));
+      cards.slice(i, i + perBand).forEach((card) => wrap.append(card));
+      wraps.push(wrap);
+    }
+    row.replaceChildren(...wraps);
+  });
 }
 
 function countryFilterLabel(name) {
@@ -1682,6 +1714,83 @@ function init() {
       shortlistOpen = !shortlistOpen;
       paintShortlist();
     }
+  });
+
+  mountLocalThemeSwitch();
+  mountLocalGallery();
+  if (document.body.classList.contains("theme-painted")) {
+    let destBandTimer = 0;
+    window.addEventListener("resize", () => {
+      clearTimeout(destBandTimer);
+      destBandTimer = setTimeout(paintDestBands, 120);
+    });
+  }
+}
+
+function isLocalHost() {
+  const host = location.hostname;
+  return host === "127.0.0.1" || host === "localhost";
+}
+
+function mountLocalThemeSwitch() {
+  if (!isLocalHost()) return;
+  if (document.querySelector(".theme-switch")) return;
+  const bar = document.querySelector(".topbar");
+  if (!bar) return;
+  const painted = document.body.classList.contains("theme-painted");
+  const nav = document.createElement("nav");
+  nav.className = "theme-switch";
+  nav.setAttribute("aria-label", "Local preview versions");
+  nav.innerHTML = `<a href="/classic.html" class="${painted ? "" : "is-on"}">Classic</a><a href="/" class="${painted ? "is-on" : ""}">Painted</a>`;
+  bar.append(nav);
+}
+
+function mountLocalGallery() {
+  if (!isLocalHost()) return;
+  if (document.body.classList.contains("theme-painted")) return;
+  if (document.querySelector(".local-gallery")) return;
+  const items = [
+    { src: "/assets/gallery/basket.jpg", caption: "Chrysanthemum basket", alt: "Ink-and-colour painting of chrysanthemums in a wicker basket with persimmons" },
+    { src: "/assets/gallery/owls.jpg", caption: "Three owls", alt: "Ink-and-colour painting of three wide-eyed owls on a branch" },
+    { src: "/assets/gallery/geese-walk.jpg", caption: "Three geese", alt: "Ink-and-colour painting of three geese walking under willow" },
+    { src: "/assets/gallery/berries.jpg", caption: "Autumn berries", alt: "Ink-and-colour painting of a branch with red berries and green leaves" },
+    { src: "/assets/gallery/hedgehog.jpg", caption: "Hedgehog", alt: "Ink-and-colour painting of a hedgehog eating watermelon" },
+    { src: "/assets/gallery/geese-water.jpg", caption: "Geese at the water", alt: "Ink-and-colour painting of one goose on the bank and one drinking from the water" },
+    { src: "/assets/gallery/maple.jpg", caption: "Maple", alt: "Ink-and-colour painting of red maple leaves on dark branches" },
+    { src: "/assets/gallery/squirrel.jpg", caption: "Squirrel", alt: "Ink-and-colour painting of a squirrel climbing a tree" },
+  ];
+  const section = document.createElement("section");
+  section.className = "local-gallery";
+  section.setAttribute("aria-label", "Studio gallery");
+  section.innerHTML = `<div class="local-gallery-head">
+      <h2>Studio gallery</h2>
+      <p class="local-gallery-note">Local preview only</p>
+    </div>
+    <div class="local-gallery-grid">${items.map((item, i) => `
+      <figure class="local-gallery-card">
+        <button type="button" data-gallery-open="${i}" aria-label="Open ${escapeHtml(item.caption)}">
+          <img src="${item.src}" alt="${escapeHtml(item.alt)}" loading="lazy" decoding="async" width="700" height="900">
+        </button>
+        <figcaption>${escapeHtml(item.caption)}</figcaption>
+      </figure>`).join("")}
+    </div>`;
+  document.querySelector(".hero")?.after(section);
+
+  let lightbox = document.querySelector(".local-gallery-lightbox");
+  if (!lightbox) {
+    lightbox = document.createElement("dialog");
+    lightbox.className = "local-gallery-lightbox";
+    lightbox.addEventListener("click", () => lightbox.close());
+    document.body.append(lightbox);
+  }
+  section.addEventListener("click", (event) => {
+    const btn = event.target.closest("[data-gallery-open]");
+    if (!btn) return;
+    const item = items[Number(btn.dataset.galleryOpen)];
+    if (!item) return;
+    lightbox.innerHTML = `<img src="${item.src}" alt="${escapeHtml(item.alt)}">`;
+    if (typeof lightbox.showModal === "function") lightbox.showModal();
+    else lightbox.setAttribute("open", "");
   });
 }
 

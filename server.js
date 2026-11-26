@@ -52,7 +52,10 @@ function catalogueBundle() {
 
 function resolveFile(urlPath) {
   const decoded = decodeURIComponent((urlPath || "/").split("?")[0]);
-  const relative = decoded === "/" ? "/index.html" : decoded;
+  const relative = decoded === "/"
+    ? "/index.html"
+    : (decoded === "/painted" ? "/painted.html"
+      : (decoded === "/classic" ? "/classic.html" : decoded));
 
   if (relative === "/styles.css") {
     return path.join(SITE_ROOT, "styles.css");
